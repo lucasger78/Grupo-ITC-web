@@ -769,6 +769,203 @@ section,
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
+
+.p-home{
+  text-align: left;
+}
+
+.p-operacionesYrubros {
+  text-transform: capitalize;
+  margin-bottom: 15px;
+  color: var(--accent-color);
+  background-color: rgba(80, 80, 80, 0.1);
+  max-width: 180px;
+  padding: 0 5px;
+  font-weight: 600;
+}
+
+.home-descript{
+  color: var(--accent-color);
+  
+}
+
+.title-description-home, .subtitle-description-home{
+  justify-self: left;
+  
+}
+
+.subtitle-description-home{
+  font-weight: 700;
+}
+
+.list-description-home {
+  text-align: left; 
+  list-style-position: inside; 
+  padding-left: 0; 
+}
+
+.list-description-home {
+  display: block; 
+  text-align: left;
+  
+}
+
+.h4-section-title p.p-home {
+  margin-bottom: 20px;
+}
+
+
+
+
+
+.container-areas {
+  margin-top: 110px !important;
+  width: 80%;
+  /*margin-left: 5%;  */
+  padding-left: 0px;
+  padding: 20px;
+  background-color: #fff;
+  
+  
+}
+
+.sections-areas {
+  display: flex;
+  gap: 20px; /* Espacio entre los dos contenedores */
+}
+
+.section-area {
+  flex: 1;
+  background-color: rgb(224, 224, 224, .2); /* Color de fondo opcional */
+  padding: 15px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.section-area h2 {
+  color: #333;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.section-area p {
+  color: #666;
+  font-size: 16px;
+  text-align: left;
+}
+
+.quote-button-areas {
+  display: block;
+  width: 150px;
+  padding: 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 20px 0 0 5%; 
+  transition: width 0.4s ease, background-color 0.4s ease;
+}
+
+.quote-button-areas:hover {
+  width: 230px;
+  background-color: #0056b3;
+}
+
+
+/* CARRUSEL HOME */
+.carrusel-iconos-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+  padding: 20px; 
+  margin-left: auto; 
+  margin-right: auto; 
+}
+
+.carrusel-iconos {
+  width: 240px;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.carrusel-iconos-track {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: iconosScrollDown 12s linear infinite;
+}
+
+.carrusel-iconos-track.reverse {
+  animation: iconosScrollUp 15s linear infinite;
+}
+
+.carrusel-iconos img {
+  width: 180px;
+  height: auto;
+  /* object-fit: cover; */
+  margin-bottom: 20px;
+}
+
+/* Animaciones propias */
+@keyframes iconosScrollDown {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100%); }
+}
+
+@keyframes iconosScrollUp {
+  0% { transform: translateY(100%); }
+  100% { transform: translateY(-100%); }
+}
+
+/* Fade propio */
+.fade-mask-iconos::before,
+.fade-mask-iconos::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 20%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.fade-mask-iconos::before {
+  top: 0;
+  background: linear-gradient(to bottom, white 0%, transparent 100%);
+}
+
+.fade-mask-iconos::after {
+  bottom: 0;
+  background: linear-gradient(to top, white 0%, transparent 100%);
+}
+
+/* .container-areas-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.sections-areas {
+  flex: 1;
+}
+
+.about-images {
+  flex: 1;
+} */
+
+
+
+
+
 .services .service-item {
   background-color: var(--surface-color);
   box-shadow: 0px 5px 90px 0px rgba(0, 0, 0, 0.1);
