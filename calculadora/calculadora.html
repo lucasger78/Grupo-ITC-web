@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  
+  <title>Calculadora de Porcentaje por Categoría</title>
+  
+  <link rel="stylesheet" href="calculadora.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body class="calculator-body">
+
+  <div class="calculadora">
+    <h2 class="calculator-h2 title-calculator">Calcula el Envío</h2>
+    
+    <label class="calculator-label" for="categoria">Seleccioná una categoría:</label>
+    <select id="categoria">
+      <option value="" disabled selected>Elegí una categoría</option>      
+        <option value="10">Electrónica (10%)</option>
+        <option value="15">Ropa (15%)</option>
+        <option value="20">Hogar (20%)</option>
+    </select>
+
+    <label class="calculator-label" for="entrega">Tipo de entrega:</label>
+      <select id="entrega">
+        <option value="" disabled selected>Tipo de entrega</option>
+        <option value="20">Córdoba Capital ($20)</option>
+        <option value="45">Resto de la Provincia ($45)</option>
+      </select>
+
+      <div class="input-row">
+        <div class="input-group half-width">
+          <label class="calculator-label" for="precio"><p class="text-label">Valor del Producto:</p></label>
+          <div class="input-wrapper">
+            <span class="fixed-prefix">U$S</span>
+            <input class="calculator-input" type="number" id="precio" placeholder="0" />
+          </div>
+        </div>
+  
+        <div class="input-group half-width">
+          <label class="calculator-label" for="peso"><p class="text-label">Peso del Producto:</p></label>
+          <div class="input-wrapper">
+            <span class="fixed-prefix">KG</span>
+            <input class="calculator-input" type="number" id="peso" placeholder="0" />
+          </div>
+        </div>
+      </div>
+
+    <button id="agregar" class="calculator-btn btn-agregar">Agregar categoría</button>
+
+    <div id="listaCategorias"></div>
+
+    <div class="total-final" id="totalFinal">
+      <h6>Total Final con Envío: $0.00</h6>
+    </div> 
+    <div>
+      <button class="calculator-btn btn btn-primary"><a class="calculator-a" href="https://grupoitc.com.ar">Nececito Asesoramiento</a></button>
+    </div>
+  </div> 
+
+ 
+ 
+
+
+    
+
+
+
+
+    <script src="calculadora.js"></script>
+</body>
+</html>

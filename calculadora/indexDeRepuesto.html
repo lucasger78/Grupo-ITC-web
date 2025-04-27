@@ -1,0 +1,53 @@
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Calculadora de Envío</title>
+    <link rel="stylesheet" href="calculadora.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Calcula el Envío</h1>
+  
+      <label for="categoria">Seleccioná una categoría:</label>
+      <select id="categoria">
+        <option value="">Elegí una categoría</option>
+        <option value="10">Electrónica (10%)</option>
+        <option value="15">Ropa (15%)</option>
+        <option value="20">Hogar (20%)</option>
+      </select>
+  
+      <div class="input-row">
+        <div class="input-group">
+          <label for="precio">Valor del Producto:</label>
+          <div class="input-with-prefix">
+            <span class="prefix">U$S</span>
+            <input type="number" id="precio" placeholder="0" />
+          </div>
+        </div>
+  
+        <div class="input-group">
+          <label for="peso">Peso del Producto:</label>
+          <div class="input-with-prefix">
+            <span class="prefix">KG</span>
+            <input type="number" id="peso" placeholder="0" />
+          </div>
+        </div>
+      </div>
+  
+      <label for="entrega">Tipo de entrega:</label>
+      <select id="entrega">
+        <option value="20">Córdoba Capital ($20)</option>
+        <option value="45">Resto de la Provincia ($45)</option>
+      </select>
+  
+      <button id="agregar">Agregar categoría</button>
+  
+      <ul id="lista"></ul>
+  
+      <div id="total">Total final: $0.00</div>
+    </div>
+  
+    <script src="calculadora.js"></script>
+  </body>
+  </html>
