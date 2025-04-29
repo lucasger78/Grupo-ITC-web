@@ -1,0 +1,125 @@
+.hero-modern {
+    padding: 100px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    gap: 40px;
+  }
+  
+  .hero-content {
+    flex: 1;
+  }
+  
+  .hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .hero-title {
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 1.2;
+    color: #1b1b1b;
+    margin-bottom: 20px;
+  }
+  
+  .accent-text {
+    color: #3b47d4;
+  }
+  
+  .hero-subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    color: #4b4b4b;
+    margin-bottom: 30px;
+  }
+  
+  .h4-subtitle {
+    font-size: 22px;
+    font-weight: 600;
+    color: #4b4b4b;
+    margin-bottom: 30px;
+  }
+  
+  .btn-about {
+    background: #f5f5f5;
+    color: #4b4b4b;
+    width: 150px;
+    padding: 10px;
+    border: solid 1px rgb(75, 75, 75, 0.2);
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+    transition: width 0.4s ease, background-color 0.4s ease;
+  }
+  
+  .btn-about:hover {
+    width: 180px;
+    color: #4b4b4b;
+    background: #f5f5f5;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  }
+
+  .btn-contact {
+    background: linear-gradient(90deg, #3b47d4 0%, #4e60f7 100%);
+    color: #ffffff;
+    width: 150px;
+    padding: 10px;
+    /* padding: 12px 30px; */
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+    transition: width 0.4s ease, background-color 0.4s ease;
+  }
+  
+  .btn-contact:hover {
+    width: 180px;
+    color: #ffffff;
+    background: linear-gradient(90deg, #7b85f0 0%, #313fb9 100%);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  }
+  
+  .img-hero {
+    margin: 0 ;
+    width: 100%;
+    /* max-width: 700px; */
+    border-radius: 16px;
+    object-fit: cover;
+  }
+  
+  /* Responsive Mobile */
+  @media (max-width: 991px) {
+    .hero-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .hero-image {
+      margin-top: 30px;
+    }
+  
+    .btn-contact {
+      width: auto;
+      justify-content: center;
+    }
+  }
+  
