@@ -1,11 +1,11 @@
 .hero-modern {
     padding: 100px 0;
-    background-color: #f9f9f9;
+    background-color: #ffffff;
   }
   
   .hero-container {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between;
     max-width: 1200px;
     margin: 0 auto;
@@ -21,6 +21,53 @@
     flex: 1;
     display: flex;
     justify-content: center;
+  }
+
+
+
+
+  .hero-modern1 .hero-container1 {
+    max-width: none;          /* Elimina el límite de 1200px */
+    width: 100%;              /* Ocupa todo el ancho del viewport */
+    margin-top: 50px;           
+    padding-left: 150px;         /*  Opcional: ajustá el padding izquierdo */
+    gap: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Elimina márgenes de imagen y pega al borde derecho */
+  .hero-image.contenedores {
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .hero-image.contenedores img {
+    width: 100%;
+    max-width: 100%;
+    
+    object-fit: cover;
+    border-radius: 16px;
+    margin-left: 300px !important;
+    margin-top: 50px;
+    margin-right: 0;
+  }
+
+
+  
+
+  .hero-container {
+    align-items: stretch; 
+  }
+  
+  .hero-image.amazon-package img {
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
   }
   
   .hero-title {
@@ -125,5 +172,9 @@
 
 .hero-modern{
   margin-top: 50px;
+}
+
+.contenedores{
+  margin-right: 0;
 }
   

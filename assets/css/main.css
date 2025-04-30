@@ -760,11 +760,20 @@ section,
 }
 
 .logo-brand {
-  height: auto;
-  max-height: none !important; /* 🔥 Anula el límite anterior */
-  width: 100px;
+  height: 70px;
+  max-height: none !important; 
+  width: auto;
   object-fit: contain;
 }
+
+
+@media (max-width: 768px) {
+    .logo-brand {
+      width: 80%; /* el logo ocupará el 40% del ancho del contenedor */
+      height: auto;
+    }
+  }
+
 
 /*--------------------------------------------------------------
 # Services Section
@@ -950,6 +959,55 @@ section,
   bottom: 0;
   background: linear-gradient(to top, white 0%, transparent 100%);
 }
+
+/* CARRUSEL RESPONSIVO */
+@media (max-width: 768px) {
+  .carrusel-iconos-wrapper {
+    flex-direction: column;
+    height: auto;
+    gap: 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 10px 0;
+  }
+
+  .carrusel-iconos {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+  }
+
+  .carrusel-iconos-track {
+    flex-direction: row;
+    animation: iconosScrollLeft 15s linear infinite;
+  }
+
+  .carrusel-iconos-track.reverse {
+    animation: iconosScrollRight 15s linear infinite;
+  }
+
+  .carrusel-iconos img {
+    width: 120px;
+    margin: 0 10px;
+  }
+
+  .fade-mask-iconos::before,
+  .fade-mask-iconos::after {
+    display: none;
+  }
+}
+
+/* Nueva animación para scroll horizontal */
+@keyframes iconosScrollLeft {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+@keyframes iconosScrollRight {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
 
 .services .service-item {
   background-color: var(--surface-color);
