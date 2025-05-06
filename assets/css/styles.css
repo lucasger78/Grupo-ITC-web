@@ -29,8 +29,8 @@
   .hero-modern1 .hero-container1 {
     max-width: none;          /* Elimina el límite de 1200px */
     width: 100%;              /* Ocupa todo el ancho del viewport */
-    margin-top: 50px;           
-    padding-left: 150px;         /*  Opcional: ajustá el padding izquierdo */
+    margin-top: 120px;           
+    padding-left: 60px;         /*  Opcional: ajustá el padding izquierdo */
     gap: 50px;
     display: flex;
     justify-content: space-between;
@@ -63,6 +63,15 @@
   }
   
   .hero-image.amazon-package img {
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+  }
+
+  .hero-image.simular-compra img {
+    margin-top: 190px;
     height: 100%;
     width: auto;
     max-width: 100%;
@@ -171,6 +180,7 @@
   }
 
 .hero-modern{
+  
   margin-top: 50px;
 }
 

@@ -764,12 +764,21 @@ section,
   max-height: none !important; 
   width: auto;
   object-fit: contain;
+  
 }
 
+.brand-subtitle {
+  font-size: 14px;
+  color: #555;
+  white-space: nowrap;
+  line-height: 1.2;
+  padding-top: 38px;
+  padding-left: 15px; 
+}
 
 @media (max-width: 768px) {
     .logo-brand {
-      width: 80%; /* el logo ocupará el 40% del ancho del contenedor */
+      width: 80%; 
       height: auto;
     }
   }
@@ -805,7 +814,14 @@ section,
 
 .subtitle-description-home{
   font-weight: 700;
+  text-align: left;
+  margin-top: 150px;  
 }
+
+.subtitle-description-home span{
+  text-align: left;  
+}
+
 
 .list-description-home {
   text-align: left; 
@@ -828,11 +844,11 @@ section,
 
 
 .container-areas {
-  margin-top: 110px !important;
+  /* margin-top: 5px !important; */
   width: 80%;
   /*margin-left: 5%;  */
   padding-left: 0px;
-  padding: 20px;
+  padding: 0 20px 20px 20px;
   background-color: #fff;
   
   
@@ -893,13 +909,17 @@ section,
   justify-content: center;
   align-items: center;
   gap: 30px;
-  height: 500px;
+  height: 300px;
   overflow: hidden;
   position: relative;
-  padding: 20px; 
+  padding: 10px 20px; 
   margin-left: auto; 
-  margin-right: auto; 
+  margin-right: auto;
+  margin-top: 40px;      
+  margin-bottom: 40px; 
 }
+
+
 
 .carrusel-iconos {
   width: 240px;
