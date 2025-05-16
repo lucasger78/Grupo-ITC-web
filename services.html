@@ -9,13 +9,16 @@
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/favicon.png" rel="icon"
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -25,12 +28,17 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+  <!-- <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/effects.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/responsive.css" rel="stylesheet"> -->
+  <link href="assets/css/styles(Home).css" rel="stylesheet">
+  <link href="assets/css/styles(Services).css" rel="stylesheet">
 
- 
+
 </head>
 
-<body class="services-page">
+<body class="index-page">
 
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
@@ -38,16 +46,18 @@
       <a href="index.html" class="logo d-flex align-items-center">
     
         <img src="assets/img/logo-ITC.png" alt="" class="logo-brand">
+
+        <span class="brand-subtitle">Despachante de Aduana y Comercio Exterior</span>
+
       </a>
+     
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html" class="active">Services</a></li>
-          <li><a href="properties.html">Properties</a></li>
-          <li><a href="agents.html">Agents</a></li>
-          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="#">Nosotros</a></li>
+          <li><a href="services.html" class="active">Servicios</a></li>
+         <!--  <li class="dropdown"><a href="#"><span>Servicios</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -57,14 +67,17 @@
                   <li><a href="#">Deep Dropdown 3</a></li>
                   <li><a href="#">Deep Dropdown 4</a></li>
                   <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
+                </ul> 
               </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
+              <li><a href="#">Exportaciones</a></li>
+              <li><a href="#">Importaciones</a></li>
+              <li><a href="#">Gestión Integral</a></li>
             </ul>
-          </li> -->
-          <li><a href="contact.html">Contact</a></li>
+          </li>-->
+          <li><a href="#">Courier</a></li>
+          <!-- <li><a href="agents.html">Agents</a></li> -->
+          
+          <li><a href="#">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -73,198 +86,411 @@
   </header>
 
   <main class="main">
-
-    <!-- Page Title -->
-    <div class="page-title" data-aos="fade">
-      <div class="heading">
-        <div class="container">
-          <div class="row d-flex justify-content-center text-center">
-            <div class="col-lg-8">
-              <h1>Services</h1>
-              <p class="mb-0">Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
-            </div>
-          </div>
+<body>
+    
+    <section class="hero-modern">
+        <div class="hero-container import">
+            <div class="hero-image images-service-1">
+                <img src="assets/img/services/containers1.jpg" alt="contenedores" class="img-hero">
+              </div>
+          <div class="hero-content text-package">
+            <h2 class="hero-title-service-section">
+              <span class="accent-text">Gestión Integral del Comercio Exterior. <br> </span>
+              Importaciones y Exportaciones
+            </h2>
+            <h4 class="h4-subtitle-1">Con Grupo ITC, tus operaciones internacionales son simples, eficientes y seguras. Nos encargamos de todo, para que no tengas que preocuparte por nada. Solo elegí qué importar o exportar, Nosotros lo hacemos realidad.</h4>
+            
+            <a href="#" class="btn-contact-services-2">Conoce Más<i class="bi bi-arrow-right"></i></a>
+          </div>      
+          
         </div>
-      </div>
-      <nav class="breadcrumbs">
-        <div class="container">
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current">Services</li>
-          </ol>
-        </div>
-      </nav>
-    </div><!-- End Page Title -->
-
-    <!-- Services Section -->
+    </section>
     <section id="services" class="services section">
 
+        <!-- Section Title Home -->
+        
+  
+        <section id="about" class="about section">
+  
+          <div class="container">
+    
+            <div class="row gy-4 align-items-start">
+    
+              <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+                <p class="p-operacionesYrubros">Operaciones y Rubros </p>
+                <div class="container section-title" data-aos="fade-up">
+                  <h2 class="importacion-title title-description-home"><span class="home-descript">Importaciones</span></h2>
+                  
+
+                  <ul class="list-importacion">
+                    <li><i class="bi bi-check"></i> <span>Despachos de importación eficientes y seguros</span></li>
+                    <li><i class="bi bi-check"></i> <span>Análisis de costos completos: desde el proveedor hasta tu puerta</span></li>
+                    <li><i class="bi bi-check"></i> <span>Tramitación de permisos, certificaciones y terceros organismos</span></li>
+                    <li><i class="bi bi-check"></i> <span>Coordinación de logística internacional terrestre, aérea o marítima</span></li>
+                    <li><i class="bi bi-check"></i> <span>Gestión bancaria y seguimiento de pagos al exterior</span></li>
+                  </ul>
+                  
+
+                  
+                </div>
+                <div class="hero-image simular-compra">
+                  <img src="assets/img/simular-compra.jpg" alt="simular-compra" class="img-hero-simula">
+                </div>                             
+              </div>
+
+              
+              <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="hero-image images-service-2">
+                <img src="assets/img/services/containers2.jpg" alt="contenedores" class="img-hero">
+              </div>
+              </div>
+              
+
+              <div class="container section-title h4-section-title" data-aos="fade-up">
+                
+                  <h2 class="subtitle-description-home hero-title4">Simula tu Inversión:<br><span class="home-descript"> Importación Fácil y Rápido</span></h2>
+                  <p class="p-home hero-subtitle4">Simula los costos de tu importación en unos pocos pasos. Nuestra calculadora te ayuda a estimar cuánto dinero necesitas para traer máquinas de uso o productos para comercializar, considerando:</p>                
+                  <ul class="list-description-home">
+                    <li><i class="bi bi-check"></i> <span>Costo de la mercadería</span></li>
+                    <li><i class="bi bi-check"></i> <span>Gastos de flete y logística</span></li>
+                    <li><i class="bi bi-check"></i> <span>Impuestos y costos aduaneros detallados</span></li>
+                  </ul>
+                </div>
+
+              <!-- AREA SECTION --> 
+
+              <div class="container-areas"> 
+                <div class="sections-areas">
+                    <div class="section-area">
+                        <h2>Área Análisis</h2>
+                        <p>En esta sección, nos centramos en ofrecerte las mejores alternativas para tu negocio, ya sea diferentes proveedores o fletes.</p>
+                    </div>
+                    <div class="section-area">
+                        <h2>Área Comercial</h2>
+                        <p>En este ámbito nos enfocamos en brindarte ayuda para elegir productos para agregar a tu negocio y comercializar directamente.</p>
+                    </div>
+                </div>
+                <button class="quote-button-areas">Cotiza Ahora</button>
+                 
+            </div> 
+            </div>
+              <!-- END AREA SECTION -->    
+    
+            </div>
+    
+          </div>
+        </section>
+        <section id="about" class="about section">
+  
+          <div class="container">
+    
+            <div class="row gy-4 align-items-start">
+    
+              <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+                <p class="p-operacionesYrubros">Operaciones y Rubros </p>
+                <div class="container section-title" data-aos="fade-up">
+                  <h2 class="hero-title3 title-description-home">Estrategias para tu<span class="home-descript"> Primera Importación</span></h2>
+                  <p class="p-home hero-subtitle3">Está diseñado para quienes recién empiezan. Analizamos cada detalle para que puedas importar de manera eficiente y rentable.</p>
+                  <p class="p-home hero-subtitle3">Ofrecemos un servicio integral para que comiences tranquilamente y sin errores ya que estos pueden perjudicar tu capital invertido.</p>
+                  <div class="container-primeraImpo"> 
+                    <div class="sections-primeraImpo">
+                        <div class="section-primera-impo">
+                            <h2>Acompañamiento de Completo de Principio a Fin</h2>
+                            <p>Entendemos lo complejo que puede ser iniciar múltiples trámites, enfrentarse a temas poco familiares y adaptarse a cambios constantes en las políticas. Por eso, contamos con un equipo preparado para acompañarte en cada etapa del proceso.</p>
+                        </div>
+                        <div class="section-primera-impo">
+                            <h2>Inversión con mínimo viable para un inicio SEGURO</h2>
+                            <p>Nuestro método personalizado garantiza una importación efectiva y segura.
+                            Te ayudamos a analizar el producto que querés importar, evaluamos opciones de mercado y te brindamos un panorama claro sobre la rentabilidad potencial en Argentina</p>
+                        </div>
+                    </div>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdf5w4xDx1-t9CwBfGu3o8xZ0gDmh0AWbEjOPXhgRe1ZeJ6eQ/viewform" target="_blank" class="quote-button-primera-impo">Registrate Ahora</a>
+                     
+                </div> 
+                </div>
+                <!-- Imagen zona franca -->
+                <div class="hero-image zona-franca">
+                  <img src="assets/img/zona-franca.jpg" alt="zona-franca" class="img-zona-franca">
+                </div>                            
+              </div>
+              
+              <!-- Imagen Primera Imnportacion -->
+              <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="hero-image primera-impo">
+                  <img src="assets/img/primera-impo.jpg" alt="primera-impo" class="img-primera-impo">
+                </div> 
+                
+              
+
+              <div class="container section-title h4-section-title" data-aos="fade-up">
+                
+                  <h3 class="subtitle-description-home hero-title5"><span class="home-descript">Desbloqueando Oportunidades:</span><br> Los Beneficios de tener tu mercadería en Zonas Francas</h3>
+                  <p class="p-home hero-subtitle5">Los bienes que ingresan a una Zona Franca no pagan impuestos de importación y pueden almacenarse sin límite de tiempo y a bajo costo. Esto es especialmente útil para almacenar insumos de procesos productivos o equipamiento mientras se espera la autorización para nacionalizar la importación.</p>
+                
+                  
+              <!-- AREA SECTION --> 
+
+              <div class="container-zf"> 
+                <div class="sections-zf">
+                    <div class="section-zona-franca">
+                        <h2>Conoce todos los beneficios de ser usuario de Zona Franca</h2>
+                        <p>Descubre los beneficios que estas áreas especiales ofrecen a las empresas: desde exenciones fiscales hasta almacenamiento logístico sin restricciones.</p>
+                    </div>
+                    <div class="section-zona-franca">
+                        <h2>Te <span class="zona-franca-title">registramos</span> como usuario de<span class="zona-franca-title"> zona franca</span></h2>
+                        <p>En este ámbito nos enfocamos en brindarte ayuda para elegir productos para agregar a tu negocio y comercializar directamente.</p>
+                    </div>
+                </div>
+                
+                <!-- END AREA SECTION -->
+                <a class="quote-button-zona-franca">Cotiza Ahora</a>
+                 
+            </div> 
+            </div>
+                  
+    
+            </div>
+            
+          </div>
+        </section>
+        <section id="about" class="about section">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                
+            </div>    
+  
+          <div class="container">
+    
+            <div class="row gy-4 align-items-start">
+    
+              <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+                <p class="p-operacionesYrubros">Operaciones y Rubros </p>
+                <div class="container section-title" data-aos="fade-up">
+                  <h2 class="hero-title3 title-description-home">Cobertura Nacional:<span class="home-descript"><br> de Aduanas</span></h2>
+                  <p class="p-home hero-subtitle3">Trabajamos en todas las aduanas y puntos fronterizos de Argentina, para que puedas operar desde cualquier región del país con el mismo nivel de eficiencia y respaldo.</p>
+
+                  <p class="p-home hero-subtitle3 p-aduana">Principales zonas de cobertura.</p>
+                  <ul class="list-aduana">
+                    <li class="li-aduana"><i class="bi bi-check"></i> AMBA: <span class="aduana-li">Buenos Aires, Ezeiza, Zona Franca La Plata</span></li>
+                    <li class="li-aduana"><i class="bi bi-check"></i> Centro: <span class="aduana-li">Córdoba, Santa Fe, Rosario, Villa Constitución</span></li>
+                    <li class="li-aduana"><i class="bi bi-check"></i> Cuyo: <span class="aduana-li">Mendoza, San Juan, San Luis</span></li>
+                    <li class="li-aduana"><i class="bi bi-check"></i> NOA: <span class="aduana-li">Salta, Tucumán, Jujuy, La Rioja, Catamarca</span></li>
+                    <li class="li-aduana"><i class="bi bi-check"></i> NEA: <span class="aduana-li">Misiones, Corrientes, Chaco, Formosa</span></li>
+                    <li class="li-aduana"><i class="bi bi-check"></i> Patagonia: <span class="aduana-li">Neuquén, Río Negro, Chubut, Santa Cruz, Tierra del Fuego</span></li>
+                  </ul>
+                  
+               
+                    <a href="#" target="_blank" class="quote-button-cobertura-aduana">Contactanos</a>
+                     
+                </div> 
+                </div>
+                <!-- Imagen zona franca -->
+                <div class="hero-image cobertura-aduana">
+                  <img src="assets/img/cobertura-aduana.jpg" alt="cobertura-aduana" class="img-cobertura-aduana">
+                </div>                             
+              </div>
+             
+          </div>
+        </section>
+        
+        <!-- Services Section -->
+        <section id="services" class="services section">
+
+          <div class="container">
+
+            <div class="row gy-4">
+
+              <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="service-item  position-relative">
+                  <div class="img-wrapper">
+                    <img src="assets/img/services/dinero.jpg" alt="Gestión Documental" class="service-img">
+                  </div>
+                  <a href="service-details.html" class="stretched-link">
+                    <h3>Nesciunt Mete</h3>
+                  </a>
+                  <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                </div>
+              </div><!-- End Service Item -->
+
+              <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="service-item position-relative">
+                  <div class="img-wrapper">
+                    <img src="assets/img/services/dinero.jpg" alt="Gestión Documental" class="service-img">
+                  </div>
+                  <a href="service-details.html" class="stretched-link">
+                    <h3>Eosle Commodi</h3>
+                  </a>
+                  <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+                </div>
+              </div><!-- End Service Item -->
+
+              <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="service-item position-relative">
+                  <div class="img-wrapper">
+                    <img src="assets/img/services/dinero.jpg" alt="Gestión Documental" class="service-img">
+                  </div>
+                  <a href="service-details.html" class="stretched-link">
+                    <h3>Ledo Markt</h3>
+                  </a>
+                  <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+                </div>
+              </div><!-- End Service Item -->
+
+              <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                <div class="service-item position-relative">
+                  <div class="img-wrapper">
+                    <img src="assets/img/services/dinero.jpg" alt="Gestión Documental" class="service-img">
+                  </div>
+                  <a href="service-details.html" class="stretched-link">
+                    <h3>Asperiores Commodit</h3>
+                  </a>
+                  <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
+                  <a href="service-details.html" class="stretched-link"></a>
+                </div>
+              </div><!-- End Service Item -->
+
+              <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                <div class="service-item position-relative">
+                  <div class="img-wrapper">
+                    <img src="assets/img/services/dinero.jpg" alt="Gestión Documental" class="service-img">
+                  </div>
+                  <a href="service-details.html" class="stretched-link">
+                    <h3>Velit Doloremque</h3>
+                  </a>
+                  <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
+                  <a href="service-details.html" class="stretched-link"></a>
+                </div>
+              </div><!-- End Service Item -->
+
+              <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                <div class="service-item position-relative">
+                  <div class="img-wrapper">
+                    <img src="assets/img/services/dinero.jpg" alt="Gestión Documental" class="service-img">
+                  </div>
+                  <a href="service-details.html" class="stretched-link">
+                    <h3>Dolori Architecto</h3>
+                  </a>
+                  <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
+                  <a href="service-details.html" class="stretched-link"></a>
+                </div>
+              </div><!-- End Service Item -->
+
+              <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="service-item  position-relative">
+                  <div class="img-wrapper">
+                    <img src="assets/img/services/dinero.jpg" alt="Gestión Documental" class="service-img">
+                  </div>
+                  <a href="service-details.html" class="stretched-link">
+                    <h3>Nesciunt Mete</h3>
+                  </a>
+                  <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                </div>
+              </div><!-- End Service Item -->
+
+              <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="service-item position-relative">
+                  <div class="img-wrapper">
+                    <img src="assets/img/services/dinero.jpg" alt="Gestión Documental" class="service-img">
+                  </div>
+                  <a href="service-details.html" class="stretched-link">
+                    <h3>Eosle Commodi</h3>
+                  </a>
+                  <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+                </div>
+              </div><!-- End Service Item -->
+
+              <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="service-item position-relative">
+                  <div class="img-wrapper">
+                    <img src="assets/img/services/dinero.jpg" alt="Gestión Documental" class="service-img">
+                  </div>
+                  <a href="service-details.html" class="stretched-link">
+                    <h3>Ledo Markt</h3>
+                  </a>
+                  <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+                </div>
+              </div><!-- End Service Item -->
+
+            </div>
+
+          </div>
+
+        </section><!-- /Services Section -->
+  
+    </main>
+  
+    <footer id="footer" class="footer light-background">
+  
       <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item  position-relative">
-              <div class="icon">
-                <i class="bi bi-activity"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Nesciunt Mete</h3>
-              </a>
-              <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+        <div class="row gy-3">
+          <div class="col-lg-3 col-md-6 d-flex">
+            <i class="bi bi-geo-alt icon"></i>
+            <div class="address">
+              <h4>Address</h4>
+              <p>A108 Adam Street</p>
+              <p>New York, NY 535022</p>
+              <p></p>
             </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-broadcast"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Eosle Commodi</h3>
-              </a>
-              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+  
+          </div>
+  
+          <div class="col-lg-3 col-md-6 d-flex">
+            <i class="bi bi-telephone icon"></i>
+            <div>
+              <h4>Contact</h4>
+              <p>
+                <strong>Phone:</strong> <span>+1 5589 55488 55</span><br>
+                <strong>Email:</strong> <span>info@example.com</span><br>
+              </p>
             </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-easel"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Ledo Markt</h3>
-              </a>
-              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+          </div>
+  
+          <div class="col-lg-3 col-md-6 d-flex">
+            <i class="bi bi-clock icon"></i>
+            <div>
+              <h4>Opening Hours</h4>
+              <p>
+                <strong>Mon-Sat:</strong> <span>11AM - 23PM</span><br>
+                <strong>Sunday</strong>: <span>Closed</span>
+              </p>
             </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-bounding-box-circles"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Asperiores Commodit</h3>
-              </a>
-              <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
-              <a href="service-details.html" class="stretched-link"></a>
+          </div>
+  
+          <div class="col-lg-3 col-md-6">
+            <h4>Follow Us</h4>
+            <div class="social-links d-flex">
+              <!-- <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a> -->
+              <a href="#" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
             </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-calendar4-week"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Velit Doloremque</h3>
-              </a>
-              <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
-              <a href="service-details.html" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-chat-square-text"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Dolori Architecto</h3>
-              </a>
-              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
-              <a href="service-details.html" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
-
+          </div>
+  
         </div>
-
       </div>
-
-    </section><!-- /Services Section -->
-
-  </main>
-
-  <footer id="footer" class="footer light-background">
-
-    <div class="container">
-      <div class="row gy-3">
-        <div class="col-lg-3 col-md-6 d-flex">
-          <i class="bi bi-geo-alt icon"></i>
-          <div class="address">
-            <h4>Address</h4>
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p></p>
-          </div>
-
-        </div>
-
-        <div class="col-lg-3 col-md-6 d-flex">
-          <i class="bi bi-telephone icon"></i>
-          <div>
-            <h4>Contact</h4>
-            <p>
-              <strong>Phone:</strong> <span>+1 5589 55488 55</span><br>
-              <strong>Email:</strong> <span>info@example.com</span><br>
-            </p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 d-flex">
-          <i class="bi bi-clock icon"></i>
-          <div>
-            <h4>Opening Hours</h4>
-            <p>
-              <strong>Mon-Sat:</strong> <span>11AM - 23PM</span><br>
-              <strong>Sunday</strong>: <span>Closed</span>
-            </p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6">
-          <h4>Follow Us</h4>
-          <div class="social-links d-flex">
-            <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-          </div>
-        </div>
-
+  
+      <div class="container copyright text-center mt-4">
+        <p><b>by</b> <span>Grupo ITC </span> <strong class="px-1 sitename">Developed by</strong> <span><a href="https://lucasconti.netlify.app">Lucas Conti</a></span></p>
+        
       </div>
-    </div>
-
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">EstateAgency</strong> <span>All Rights Reserved</span></p>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
-
-  </footer>
-
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Preloader -->
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
-</html>
+  
+    </footer>
+  
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  
+    <!-- Preloader -->
+    <div id="preloader"></div>
+  
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+  
+  </body>
+  
+  </html>
