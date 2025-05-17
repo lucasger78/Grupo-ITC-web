@@ -2302,9 +2302,16 @@ color:#252525 !important;
     /* margin-right: 250px; */
   }
 
-  /* .hero-image.amazon-package {
-    flex-shrink: 0; 
-  } */
+   .hero-image.images-service-3 img {
+    margin-top: 180px;
+    margin-left: -90px;
+    width: 100%;
+    height: 100%;
+    max-width: 1460px;
+    /* object-fit: cover; */
+    border-radius: 16px;
+    /* margin-right: 250px; */
+  }
 
   .hero-content.text-package {
     padding-right: 80px;
@@ -2529,17 +2536,35 @@ color:#252525 !important;
   margin-left: -100px; 
 }
 
+.title-description-importacion, .subtitle-description-importacion{
+  justify-self: left;
+  
+}
+
+.title-description-importacion{
+  font-family: "Inter", sans-serif;
+  font-size: 50px !important;
+  font-weight: 900;
+  /* line-height: 1.2; */
+  color: #1b1b1b;
+  /* width: 150%; */
+  margin-bottom: 20px;
+ 
+}
+
 .importacion-title {
   font-family: "Inter", sans-serif;
-  font-size: 48px !important;
-  font-weight: 900 !important;
+  font-size: 48px;
+  font-weight: 700 !important;
   text-align: left;
   line-height: 1.2;
   color: #1b1b1b;
   width: 100%;
   margin-bottom: 20px;
-  /* margin-left: 10px;  */
+  margin-top: 80px; 
 }
+
+
 
 .h4-subtitle3 {
   width: 110%;
@@ -2562,7 +2587,8 @@ color:#252525 !important;
     display: flex;
     align-items: flex-start;
     gap: 8px;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 800;
     color: #4b4b4b;
 }
 
@@ -2658,70 +2684,9 @@ a.quote-button-primera-impo:hover {
   margin-left: 70px !important;
 }
 
-/* ZONA FRANCA */
+/* EXPORTACION */
 
-.hero-title5 {
-  font-family: "Inter", sans-serif;
-  font-size: 36px !important;
-  font-weight: 700 !important;
-  margin-top: 230px;
-  /* text-align: left;
-  line-height: 1.2;
-  color: #1b1b1b;
-  width: 100%;
-  
-  margin-left: -100px;  */
-}
-.hero-subtitle5 {
-  font-size: 18px;
-  font-weight: 400;
-  color: #4b4b4b;
-  margin-bottom: 30px;
-  /* margin-left: -100px; */
-}
-
-.zona-franca-title{
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.container-zf {
-  margin-top: 50px !important;
-  width: 100%;
-  margin-left: -25px; 
-  padding-left: 0px;
-  padding: 0 20px 20px 20px;
-  background-color: #fff;
-  
-  
-}
-
-.sections-zf {
-  display: flex;
-  gap: 20px; /* Espacio entre los dos contenedores */
-}
-
-.section-zona-franca {
-  flex: 1;
-  background-color: rgb(224, 224, 224, .5); /* Color de fondo opcional */
-  padding: 15px;
-  border-radius: 20px;
-  text-align: left;
-}
-
-.section-zona-franca h2 {
-  color: #333;
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.section-zona-franca p {
-  color: #666;
-  font-size: 16px;
-  text-align: left;
-}
-
-a.quote-button-zona-franca {
+a.quote-button-export {
   display: block;
   width: 150px;
   background: linear-gradient(90deg, #003252 0%, #095f94 100%);
@@ -2738,14 +2703,31 @@ a.quote-button-zona-franca {
   transition: width 0.4s ease, background-color 0.4s ease;
 }
 
-a.quote-button-zona-franca:hover {
+a.quote-button-export:hover {
   width: 230px;  
   background: linear-gradient(90deg, #7b85f0 0%, #003252 100%);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
 }
 
-.hero-image.zona-franca img {
-  margin-top: 140px;
+.export-title {
+  font-family: "Inter", sans-serif;
+  font-size: 50px !important;
+  font-weight: 700 !important;
+  text-align: left;
+  line-height: 1.2;
+  color: #1b1b1b;
+  width: 100%;
+  margin-bottom: 20px;
+  justify-self: left;
+  margin-top: 60px;
+}
+
+.export-title span{
+  text-align: left;  
+}
+
+.hero-image.export-img img {
+  margin-top: 50px;
   max-height: 250% !important;
   height: 200% !important;
   width: auto;
@@ -2754,6 +2736,26 @@ a.quote-button-zona-franca:hover {
   border-radius: 16px;
   margin-left: -180px !important;
 }
+
+ .list-export {
+    padding-left: 0;
+    list-style: none;
+    margin: 0;
+    text-align: left;
+}
+
+.list-export li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 18px;
+    font-weight: 800;
+    color: #4b4b4b;
+}
+
+
+
 
 /* COBERTURA NACIONAL DE ADUANA */
 .container-coberturaAduana {
