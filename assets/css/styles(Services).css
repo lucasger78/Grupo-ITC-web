@@ -2699,7 +2699,8 @@ a.quote-button-export {
   font-size: 16px;
   cursor: pointer;
   text-decoration: none;  
-  margin: 20px 0 0 ; 
+  margin: 20px 0 0 ;
+  margin-left: 50px; 
   transition: width 0.4s ease, background-color 0.4s ease;
 }
 
@@ -2719,7 +2720,8 @@ a.quote-button-export:hover {
   width: 100%;
   margin-bottom: 20px;
   justify-self: left;
-  margin-top: 60px;
+  margin-top: 40px;
+  margin-left: 50px;
 }
 
 .export-title span{
@@ -2734,7 +2736,7 @@ a.quote-button-export:hover {
   max-width: 100%;
   object-fit: cover;
   border-radius: 16px;
-  margin-left: -180px !important;
+  margin-left: -10px !important;
 }
 
  .list-export {
@@ -2742,6 +2744,7 @@ a.quote-button-export:hover {
     list-style: none;
     margin: 0;
     text-align: left;
+
 }
 
 .list-export li {
@@ -2752,8 +2755,95 @@ a.quote-button-export:hover {
     font-size: 18px;
     font-weight: 800;
     color: #4b4b4b;
+    margin-left: 50px;
 }
 
+
+
+/* Importaciones y Exportaciones Temporales y Curier */
+.img-cobertura-aduana {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 16px;
+  display: block;
+  margin: 0 auto;
+}
+
+.courier-img{
+  margin-left: 60px;
+}
+
+.impo-expo-temp-img {
+  margin-left: -10px;
+}
+
+.impo-expo-temp-text {
+  margin-left: -30px;
+  
+  font-size: 36px !important;
+  width: 100%;
+}
+
+.list-export-import-temp {
+    padding-left: 0;
+    list-style: none;
+    margin: 0;
+    text-align: left;
+
+}
+
+.list-export-import-temp li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 18px;
+    font-weight: 800;
+    color: #4b4b4b;
+    margin-left: -30px;
+    width: 100%;
+}
+
+
+.courier-text,
+.p-courier {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto 20px 60px;
+  font-size: 18px;
+  text-align: left;
+  color: #4b4b4b;
+}
+
+.courier-text {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  margin-top: 45px;
+}
+
+.p-courier {
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+
+.quote-button-cobertura-aduana {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0056d2;
+  color: white;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+  margin-top: 15px;
+}
+
+.quote-button-cobertura-aduana:hover {
+  background-color: #0041a8;
+}
 
 
 
