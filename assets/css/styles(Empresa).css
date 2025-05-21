@@ -2566,7 +2566,6 @@ color:#252525 !important;
 }
 
 
-
 .h4-subtitle3 {
   width: 110%;
   font-size: 22px;
@@ -2613,77 +2612,6 @@ color:#252525 !important;
   /* margin-left: -100px; */
 }
 
-
-/* PRIMERA IMPORTACION */
-
-/* .container-primeraImpo {
-  margin-top: 30px !important;
-  width: 100%;
-  margin-left: -125px; 
-  padding-left: 0px;
-  padding: 0 20px 20px 20px;
-  background-color: #fff;
-  
-  
-}
-
-.sections-primeraImpo {
-  display: flex;
-  gap: 20px; 
-}
-
-.section-primera-impo {
-  flex: 1;
-  background-color: rgb(224, 224, 224, .5); 
-  padding: 15px;
-  border-radius: 20px;
-  text-align: left;
-}
-
-.section-primera-impo h2 {
-  color: #333;
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.section-primera-impo p {
-  color: #666;
-  font-size: 16px;
-  text-align: left;
-}
-
-a.quote-button-primera-impo {
-  display: block;
-  width: 150px;
-  background: linear-gradient(90deg, #003252 0%, #095f94 100%);
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
-  color: #fff;
-  border: none;
-  padding: 10px 0 ;
-  border-radius: 8px;
-  font-weight: 600;
-  font-size: 16px;
-  cursor: pointer;
-  text-decoration: none;  
-  margin: 20px 0 0 ; 
-  transition: width 0.4s ease, background-color 0.4s ease;
-}
-
-a.quote-button-primera-impo:hover {
-  width: 230px;  
-  background: linear-gradient(90deg, #7b85f0 0%, #003252 100%);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
-}
-
-.hero-image.primera-impo img {
-  margin-top: 40px;
-  max-height: 100% !important;
-  width: auto;
-  max-width: 200%;
-  object-fit: cover;
-  border-radius: 16px;
-  margin-left: 70px !important;
-} */
 
 /* EXPORTACION */
 
@@ -2739,6 +2667,7 @@ a.quote-button-export:hover {
   border-radius: 16px;
   margin-left: -10px !important;
 }
+
 
  .list-export {
     padding-left: 0;
@@ -3072,4 +3001,123 @@ a.quote-button-export:hover {
   .footer {
     padding: 40px 20px;
   }
+}
+
+
+
+.p-experience {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  justify-self: left;
+  text-align: left;
+  line-height: 1.5;
+  color: #4b4b4b;
+  margin-left: -60px !important;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 20px auto;
+}
+
+.h2-experience{
+  font-family: "Inter", sans-serif;
+  font-size: 46px !important;
+  font-weight: 700 !important;
+  text-align: left;
+  line-height: 1.2;
+  color: #1b1b1b;
+  width: 120%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: -60px !important;
+}
+
+
+/* CARRUSEL EXPERIENCIA */
+.carousel-container {
+  overflow: hidden;
+  width: 100%;
+  border-radius: 12px;
+  position: relative;
+}
+
+/* ✨ Fondo difuminado a izquierda y derecha */
+.carousel-container::before,
+.carousel-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 30px; /* Ajustá el ancho del difuminado si querés */
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.carousel-container::before {
+  left: 0;
+  background: linear-gradient(to right, white, transparent);
+}
+
+.carousel-container::after {
+  right: 0;
+  background: linear-gradient(to left, white, transparent);
+}
+
+.carousel-track {
+  display: flex;
+  width: max-content;
+  animation: slideLeft 45s linear infinite reverse; /* ⏳ Más lento (antes era 30s) */
+}
+
+.carousel-track img {
+  height: 400px;
+  width: auto;
+  flex-shrink: 0;
+  border-radius: 12px;
+  margin-right: 20px;
+  margin-top: 30px;
+  object-fit: cover;
+}
+
+.carousel-container:hover .carousel-track {
+  animation-play-state: paused;
+}
+
+/* 🔁 Slide infinito fluido duplicando contenido */
+@keyframes slideLeft {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%); /* 🌀 Solo la mitad del contenido (porque duplicamos) */
+}
+}
+
+.experience-title{
+  margin-bottom: 30px !important;
+  max-width: 100%;
+  width: 100%;
+  margin-left: 150px !important;
+}
+
+ .title-transparencia {
+    font-family: "Inter", sans-serif;       
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 46px !important;
+    font-weight: 800;
+    color: #4b4b4b;
+    margin-left: -10px;
+    margin-top: 70px;
+}
+
+
+.hero-image.img-containers img {
+  margin-top: 50px;
+  max-height: 250% !important;
+  height: 200% !important;
+  width: auto;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+  margin-left: -100px !important;
 }
