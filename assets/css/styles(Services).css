@@ -1046,6 +1046,7 @@ section,
   border-radius: 18px;
   border-bottom: 5px solid var(--surface-color);
   height: 100%;
+  
 }
 
 .services .service-item .icon {
@@ -2844,6 +2845,46 @@ a.quote-button-export:hover {
 .quote-button-cobertura-aduana:hover {
   background-color: #0041a8;
 }
+
+/* MODULOS */
+.p-modulos {
+  width: 100%;
+  max-width: 600px;
+  font-weight: 700;
+  margin: 0 ;
+  font-size: 16px !important;
+  text-align: left;
+  color: #4b4b4b;
+}
+
+.modulo-title{
+  justify-self: center;  
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 50px !important;
+  font-weight: 700 !important;  
+  line-height: 1.2;
+  color: var(--accent-color);
+  width: 100%;
+  margin-bottom: 20px; 
+  margin-top: 40px;
+  /* margin-left: 50px; */
+}
+
+.cierre-modulo{
+  font-family: "Inter", sans-serif;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 1.2;
+  justify-self: center;  
+  text-align: center;
+  color: #1b1b1b;
+  width: 100%;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  /* margin-left: 280px; */
+}
+
 
 
 
