@@ -142,3 +142,24 @@
   new PureCounter();
 
 })();
+
+// FAQs
+document.querySelectorAll('.faq-question').forEach(button => {
+  button.addEventListener('click', () => {
+    const faqItem = button.parentElement;
+    const allItems = document.querySelectorAll('.faq-item');
+
+    // Cierra todos excepto el clickeado
+    allItems.forEach(item => {
+      if (item !== faqItem) {
+        item.classList.remove('active');
+        item.querySelector('.faq-toggle').textContent = '＋';
+      }
+    });
+
+    // Toggle el actual
+    const isActive = faqItem.classList.contains('active');
+    faqItem.classList.toggle('active');
+    button.querySelector('.faq-toggle').textContent = isActive ? '＋' : '✕';
+  });
+});
