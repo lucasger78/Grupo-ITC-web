@@ -2628,9 +2628,10 @@ color:#252525 !important;
 
 /* EXPORTACION */
 
-a.quote-button-export {
+a.quote-button-courier {
   display: block;
   width: 150px;
+  text-align: center;
   background: linear-gradient(90deg, #003252 0%, #095f94 100%);
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
   color: #fff;
@@ -2646,7 +2647,7 @@ a.quote-button-export {
   transition: width 0.4s ease, background-color 0.4s ease;
 }
 
-a.quote-button-export:hover {
+a.quote-button-courier:hover {
   width: 230px;  
   background: linear-gradient(90deg, #7b85f0 0%, #003252 100%);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
@@ -3035,6 +3036,45 @@ a.quote-button-export:hover {
 .list-courier2{
   list-style: none;
 }
+.table{
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+table.table thead.table-courier th {
+  font-family: "Inter", sans-serif;
+  background-color: var(--accent-color) !important;
+  color: white !important;   
+}
+
+.table-courier-postion {
+  position: relative;
+  top: 120px;
+  left: 70px
+}
+
+.subtitle-courier{
+  margin-bottom: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+.subtitle-courier2{
+  margin-top: 60px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;  
+}
+
+.table-courier-postion2 {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  top: 50px;
+  
+}
+
 
 /* FAQs */
 .faq-section {

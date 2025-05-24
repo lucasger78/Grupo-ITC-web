@@ -149,6 +149,11 @@ document.querySelectorAll('.faq-question').forEach(button => {
     const faqItem = button.parentElement;
     const allItems = document.querySelectorAll('.faq-item');
 
+    const faqItems = document.querySelectorAll('.faq-item');
+
+
+
+
     // Cierra todos excepto el clickeado
     allItems.forEach(item => {
       if (item !== faqItem) {
@@ -163,3 +168,4 @@ document.querySelectorAll('.faq-question').forEach(button => {
     button.querySelector('.faq-toggle').textContent = isActive ? '＋' : '✕';
   });
 });
+
