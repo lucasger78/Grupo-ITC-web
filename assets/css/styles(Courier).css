@@ -3200,6 +3200,55 @@ table.table thead.table-courier th {
   transform: rotate(45deg);
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .hero-modern1,
+  .hero-container1 {
+    flex-direction: column;
+    padding: 30px;
+    gap: 40px;
+  }
+
+  .hero-title-service-section {
+    font-size: 36px;
+    margin-left: 30px;
+    text-align: left;
+  }
+
+  .p-courier,
+  .p-courier2,
+  .courier-text {
+    font-size: 17px;
+    margin-left: 30px;
+    text-align: left;
+    padding-right: 20px;
+  }
+
+  .quote-button-courier {
+    margin-left: 30px;
+  }
+
+  .img-cobertura-aduana {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .carousel-container {
+    width: 90% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .carousel-track img {
+    height: 300px;
+  }
+
+  .list-importacion li,
+  .list-export li,
+  .list-export-import-temp li {
+    margin-left: 30px;
+    font-size: 16px;
+  }
+}
 
   
 
