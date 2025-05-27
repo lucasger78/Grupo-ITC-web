@@ -812,9 +812,7 @@ section,
   margin-left: -50px !important;
 }
 
-/*/////////////// RESPONSIVE /////////////////////*/
-
-/* Móvil (hasta 767px) */
+ 
 
 @media (max-width: 767px) {
   .hero-container {
@@ -874,7 +872,7 @@ section,
   }
 }
 
-/* Notebook / Tablets (768px - 1024px) */
+ 
 @media (min-width: 768px) and (max-width: 1024px) {
   .hero-title-empresa-section {
     font-size: 40px;
