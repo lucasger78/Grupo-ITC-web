@@ -2562,7 +2562,7 @@ color:#252525 !important;
   /* line-height: 1.2; */
   color: #1b1b1b;
   /* width: 150%; */
-  margin-bottom: 20px;
+  margin-bottom: 20px !important;
  
 }
 
@@ -2575,7 +2575,7 @@ color:#252525 !important;
   color: #1b1b1b;
   width: 100%;
   margin-bottom: 20px;
-  margin-top: 80px; 
+  margin-top: 80px !important; 
 }
 
 
@@ -2827,54 +2827,6 @@ a.quote-button-courier:hover {
   /* margin-left: 280px; */
 }
 
-
-
-
-/* COBERTURA NACIONAL DE ADUANA */
-/* 
-
-/* --- RESPONSIVE STYLES --- */
-@media (max-width: 768px) {
-  .hero-title, .hero-title2, .hero-title3, .hero-title4, .hero-title5 {
-    font-size: 28px;
-    margin-left: 0 !important;
-    text-align: center;
-  }
-  .hero-subtitle, .hero-subtitle2,.hero-subtitle4, .hero-subtitle5 {
-    font-size: 16px;
-    margin-left: 0 !important;
-    text-align: center;
-  }
-
- 
-  .btn-contact, .btn-contact2 {
-    margin-left: 0 !important;
-    width: 100%;
-    justify-content: center;
-  }
-  .hero-image img {
-    width: 100%;
-    max-width: 100%;
-    margin-left: 0 !important;
-  }
-  .hero-container, .hero-modern1 .hero-container1 {
-    flex-direction: column;
-    padding: 20px;
-    gap: 30px;
-  }
-  .importacion-container, .hero-modern1 .hero-container1 {
-    flex-direction: column;
-    padding: 20px;
-    gap: 30px;
-  }
-  .container-primeraImpo,
-  .container-zf,
-  .container-coberturaAduana {
-    margin-left: 0 !important;
-    padding: 0 10px;
-  }
-}
-
 /* WHATSAPP */
 
 .whatsapp {
@@ -2955,206 +2907,6 @@ a.quote-button-courier:hover {
   }
 
 /* END WHATSAPP */ 
-
-/* --- RESPONSIVE STYLES --- */
-@media (max-width: 768px) {
-  /* Hero titles and subtitles */
-  .hero-title, .hero-title2, .hero-title3, .hero-title4, .hero-title5 {
-    font-size: 28px;
-    margin-left: 0 !important;
-    text-align: center;
-  }
-  .hero-subtitle, .hero-subtitle2, .hero-subtitle4, .hero-subtitle5 {
-    font-size: 16px;
-    margin-left: 0 !important;
-    text-align: center;
-  }
-
-  /* Buttons */
-  .btn-contact, .btn-contact2 {
-    margin-left: 0 !important;
-    width: 100%;
-    justify-content: center;
-  }
-
-  /* Images */
-  .hero-image img, .about-img, .logo-img {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    margin-left: 0 !important;
-  }
-
-  /* Layout containers */
-  .hero-container, .hero-modern1 .hero-container1,
-  .container-primeraImpo, .container-zf, .container-coberturaAduana,
-  .why-us .card, .about .content, .logo-carousel, .footer, .navbar {
-    flex-direction: column !important;
-    padding: 20px !important;
-    margin: 0 auto !important;
-    text-align: center;
-  }
-  .importacion-container {
-    flex-direction: column !important;
-    padding: 20px !important;
-    margin: 0 auto !important;
-    text-align: center;
-  }
-
-  /* Carousel adjustments */
-  .logo-track {
-    gap: 20px;
-    animation-duration: 50s;
-  }
-
-  /* Cards */
-  .why-us .card {
-    width: 100% !important;
-    margin-bottom: 20px;
-  }
-
-  /* Navbar and logo */
-  .logo-brand {
-    height: 50px;
-    margin: 0 auto;
-  }
-  .navbar .nav-link {
-    display: block;
-    margin: 10px 0;
-    text-align: center;
-  }
-
-  /* Footer */
-  .footer {
-    padding: 30px 10px;
-    text-align: center;
-  }
-}
-
-
-/* --- RESPONSIVE STYLES FOR TABLETS --- */
-@media (min-width: 769px) and (max-width: 1024px) {
-  /* Centrado general */
-  .hero-container, .importacion-container, .hero-modern1 .hero-container1,
-  .container-primeraImpo, .container-zf, .container-coberturaAduana,
-  .about .content, .logo-carousel, .footer, .navbar {
-    padding: 30px !important;
-    margin: 0 auto !important;
-    text-align: center;
-    align-items: center;
-  }
-
-  /* Hero texts */
-  .hero-title, .hero-title2, .hero-title3, .hero-title4, .hero-title5 {
-    font-size: 36px;
-    text-align: center;
-  }
-  .hero-subtitle, .hero-subtitle2, .hero-subtitle4, .hero-subtitle5 {
-    font-size: 18px;
-    text-align: center;
-  }
-
-  /* Botones */
-  .btn-contact, .btn-contact2 {
-    width: auto;
-    display: inline-flex;
-    justify-content: center;
-    align-self: center;
-    margin: 20px auto;
-  }
-
-  /* Imágenes */
-  .hero-image img, .about-img, .logo-img {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto;
-    display: block;
-  }
-
-  /* Navbar */
-  .navbar .nav-link {
-    padding: 10px 15px;
-    text-align: center;
-  }
-
-  /* Cards */
-  .why-us .card {
-    width: 90%;
-    margin: 0 auto 20px auto;
-  }
-
-  /* Carrusel */
-  .logo-track {
-    gap: 30px;
-    animation-duration: 40s;
-  }
-
-  /* Footer */
-  .footer {
-    padding: 40px 20px;
-  }
-}
-
-.p-courier{
-  text-align: left;
-  margin-bottom: 20px;
-  margin-left: 0 !important;
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.p-courier2{
-  
-  text-align: left;
-  margin-bottom: 10px !important;
-  margin-left: 25px !important;
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.list-courier2{
-  list-style: none;
-}
-.table{
-  width: 100%;
-  max-width: 100%;
-  margin: 0 auto;
-  border-collapse: collapse;
-}
-
-table.table thead.table-courier th {
-  font-family: "Inter", sans-serif;
-  background-color: var(--accent-color) !important;
-  color: white !important;   
-}
-
-.table-courier-postion {
-  position: relative;
-  top: 120px;
-  left: 70px
-}
-
-.subtitle-courier{
-  margin-bottom: 20px;
-  font-family: "Inter", sans-serif;
-  font-weight: 600;
-}
-.subtitle-courier2{
-  margin-top: 60px;
-  text-align: center;
-  font-family: "Inter", sans-serif;
-  font-weight: 600;  
-}
-
-.table-courier-postion2 {
-  width: 100%;
-  max-width: 100%;
-  position: relative;
-  top: 50px;
-  
-}
-
 
 /* FAQs */
 .faq-section {
@@ -3280,55 +3032,189 @@ table.table thead.table-courier th {
   transform: rotate(45deg);
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+
+
+  /* --- RESPONSIVE STYLES FROM COURIER --- */
+
+
+
+
+/* --- RESPONSIVE STYLES --- */
+
+
+
+
+
+.p-courier{
+  text-align: left;
+  margin-bottom: 20px;
+  margin-left: 0 !important;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.p-courier2{
+  
+  text-align: left;
+  margin-bottom: 10px !important;
+  margin-left: 25px !important;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.list-courier2{
+  list-style: none;
+}
+.table{
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+table.table thead.table-courier th {
+  font-family: "Inter", sans-serif;
+  background-color: var(--accent-color) !important;
+  color: white !important;   
+}
+
+.table-courier-postion {
+  position: relative;
+  top: 120px;
+  left: 70px
+}
+
+.subtitle-courier{
+  margin-bottom: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+.subtitle-courier2{
+  margin-top: 60px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;  
+}
+
+.table-courier-postion2 {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  top: 50px;
+  
+}
+ 
+/* ============================
+    RESPONSIVE PERSONALIZADOS
+   ============================ */
+
+/* ------ Notebooks (pantallas entre 1024px y 1366px) ------ */
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
   .hero-modern1,
-  .hero-container1 {
-    flex-direction: column;
-    padding: 30px;
-    gap: 40px;
+  .hero-modern1 .importacion-container {
+    padding-left: 80px !important; /* Más espacio a la izquierda */
   }
 
-  .hero-title-service-section {
-    font-size: 36px;
-    margin-left: 30px;
-    text-align: left;
+  .hero-title3,
+  .export-title,
+  .courier-text,
+  .p-courier {
+    margin-left: 60px !important; /* Corrige superposición */
   }
 
-  .p-courier,
-  .p-courier2,
-  .courier-text {
-    font-size: 17px;
-    margin-left: 30px;
-    text-align: left;
-    padding-right: 20px;
-  }
-
+  .btn-contact-services-2,
   .quote-button-courier {
-    margin-left: 30px;
+    margin-left: 60px !important; /* Uniforma botones */
   }
 
-  .img-cobertura-aduana {
-    width: 100%;
-    margin-left: 0;
-  }
-
-  .carousel-container {
-    width: 90% !important;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .carousel-track img {
-    height: 300px;
-  }
-
-  .list-importacion li,
-  .list-export li,
-  .list-export-import-temp li {
-    margin-left: 30px;
-    font-size: 16px;
+  .h4-subtitle-1,
+  .hero-subtitle-1 {
+    margin-left: 60px !important;
   }
 }
 
-  
+/* ------ Tablets (768px - 1023px) ------ */
+@media screen and (max-width: 1023px) {
+  .hero-modern1,
+  .hero-modern1 .importacion-container,
+  .hero-modern,
+  .hero-container,
+  .importacion-container {
+    flex-direction: column;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    text-align: center;
+  }
+
+  .hero-image,
+  .hero-content {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .hero-title3,
+  .export-title,
+  .courier-text,
+  .p-courier,
+  .h4-subtitle-1,
+  .hero-subtitle-1 {
+    margin-left: 0 !important;
+    text-align: center;
+  }
+
+  .btn-contact-services-2,
+  .quote-button-courier {
+    margin: 20px auto 0 auto !important;
+    display: block;
+  }
+}
+
+/* ------ Celulares (< 768px) ------ */
+@media screen and (max-width: 767px) {
+  .hero-modern1,
+  .hero-modern1 .importacion-container,
+  .hero-modern,
+  .hero-container,
+  .importacion-container {
+    flex-direction: column;
+    padding: 10px 20px !important;
+    text-align: center;
+  }
+
+  .hero-image img {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+
+  .hero-title3,
+  .export-title,
+  .courier-text,
+  .p-courier,
+  .hero-subtitle-1,
+  .h4-subtitle-1 {
+    margin-left: 0 !important;
+    text-align: center !important;
+  }
+
+  .btn-contact-services-2,
+  .quote-button-courier {
+    display: block;
+    margin: 20px auto 0 auto !important;
+    width: auto;
+    text-align: center;
+  }
+
+  .logo-brand {
+    width: 60% !important;
+    height: auto !important;
+    margin: 0 auto;
+  }
+
+  .brand-subtitle {
+    font-size: 16px !important;
+    padding: 10px 0 0 0 !important;
+    text-align: center;
+  }
+}
+
 

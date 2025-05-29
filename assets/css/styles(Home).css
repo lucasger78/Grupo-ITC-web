@@ -1130,7 +1130,7 @@ color:#252525 !important;
     font-size: 70px !important;
     font-weight: 900;
     line-height: 1.2;
-    margin-left: -60px !important;
+    margin-left: -40px !important;
     color: #1b1b1b;    
     margin-bottom: 20px;
     
@@ -1145,7 +1145,7 @@ color:#252525 !important;
     font-weight: 400;
     color: #4b4b4b;
     margin-bottom: 30px;
-    margin-left: -60px !important;
+    margin-left: -40px !important;
     width: 90%;
     
   }
@@ -1173,7 +1173,7 @@ color:#252525 !important;
     text-decoration: none;
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
     transition: width 0.4s ease, background-color 0.4s ease;
-    margin-left: -60px !important;
+    margin-left: -40px !important;
     
   }
   
