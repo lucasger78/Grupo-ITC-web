@@ -3171,49 +3171,149 @@ table.table thead.table-courier th {
 
 /* ------ Celulares (< 768px) ------ */
 @media screen and (max-width: 767px) {
+  body,
+  html {
+    text-align: center !important;
+  }
+
   .hero-modern1,
   .hero-modern1 .importacion-container,
   .hero-modern,
   .hero-container,
   .importacion-container {
-    flex-direction: column;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
     padding: 10px 20px !important;
-    text-align: center;
+    text-align: center !important;
   }
 
-  .hero-image img {
-    width: 100% !important;
-    margin-left: 0 !important;
-  }
-
+  /* Texto centrado */
   .hero-title3,
   .export-title,
   .courier-text,
   .p-courier,
   .hero-subtitle-1,
-  .h4-subtitle-1 {
-    margin-left: 0 !important;
+  .h4-subtitle-1,
+  .p-empresa,
+  .p-empresa2,
+  .p-empresa3,
+  .p-courier-2 {
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  /* Botones tipo <a> centrados */
+  .btn-contact-services-2,
+  .quote-button-courier,
+  .quote-button-empresa,
+  .quote-button-courier2,
+  a[class^="quote-"],
+  a[class*="quote-"],
+  a[class*="btn"] {
+    display: inline-block !important;
+    margin: 20px auto 0 auto !important;
+    text-align: center !important;
+    float: none !important;
+  }
+
+  /* Imágenes */
+  .hero-image img,
+  img {
+    width: 100% !important;
+    height: auto !important;
+    display: block;
+    margin: 0 auto !important;
+  }
+
+  /* Cards o secciones grises */
+  .section-primera-impo,
+  .section-oportunidades,
+  .card,
+  .table {
+    margin-left: auto !important;
+    margin-right: auto !important;
     text-align: center !important;
   }
 
-  .btn-contact-services-2,
-  .quote-button-courier {
-    display: block;
-    margin: 20px auto 0 auto !important;
-    width: auto;
-    text-align: center;
-  }
-
+  /* Logo centrado */
   .logo-brand {
     width: 60% !important;
     height: auto !important;
+    margin: 0 auto !important;
+    display: block;
+  }
+
+  /* Subtítulo de logo (dejamos centrado, como excepción si se ve mejor) */
+  .brand-subtitle {
+    font-size: 16px !important;
+    padding-top: 10px;
+    text-align: center !important;
     margin: 0 auto;
   }
 
-  .brand-subtitle {
-    font-size: 16px !important;
-    padding: 10px 0 0 0 !important;
+  /* Listas centradas */
+  ul,
+  li {
+    text-align: center !important;
+    margin: 0 auto !important;
+    padding: 0;
+    list-style-position: inside !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* TÍTULO PRINCIPAL CENTRADO */
+  h1, h2, .main-title, .section-title h2 {
+    text-align: center !important;
+    margin-left: -20px !important;
+    margin-right: 10px !important;
+    width: 110% !important;
+  }
+
+  /* TABLA RESPONSIVE */
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .table-responsive table {
+    min-width: 600px; /* Evita que se achique demasiado */
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  /* 🦶 Centrado total del footer */
+  footer .container,
+  footer .row,
+  footer .footer-content,
+  footer .footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+  }
+
+  footer .footer-col {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  footer .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 15px;
+  }
+
+  footer .footer-bottom {
+    font-size: 14px;
+    padding: 10px 0;
+  }
+
+  footer .footer-bottom p {
+    margin: 0 auto;
   }
 }
 
