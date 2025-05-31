@@ -3323,7 +3323,7 @@ table.table thead.table-courier th {
     width: 95%;
     align-items: center;  
     margin-left: 10px !important;
-    margin-right: 10px !important;
+    margin-right: -30px !important;
   }
 
   .subtitle-courier{
