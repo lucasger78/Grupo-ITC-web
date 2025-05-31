@@ -3288,7 +3288,7 @@ table.table thead.table-courier th {
   
   text-align: left;
   margin-bottom: 10px !important;
-  margin-left: 0 !important;
+  margin-left: 10px !important;
   font-size: 18px;
   font-weight: 600;
 }
