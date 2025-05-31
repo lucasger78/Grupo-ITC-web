@@ -253,7 +253,7 @@ h6 {
     color: var(--nav-color);
     font-size: 28px;
     line-height: 0;
-    margin-right: 10px;
+    margin-right: 30px;
     cursor: pointer;
     transition: color 0.3s;
   }
