@@ -3309,10 +3309,10 @@ table.table thead.table-courier th {
     margin-top: 15px !important;
     padding-bottom: 10px;
     margin-bottom: 50px;
-    width: 105%;
+    width: 100%;
     align-items: center;  
     margin-left: -70px !important;
-    margin-right: -70px !important;
+    margin-right: 10px !important;
   }
   .table-responsive2 {
     overflow-x: auto;
@@ -3322,8 +3322,8 @@ table.table thead.table-courier th {
     margin-bottom: 50px;
     width: 95%;
     align-items: center;  
-    margin-left: -70px !important;
-    margin-right: 100px !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
   }
 
   .subtitle-courier{
