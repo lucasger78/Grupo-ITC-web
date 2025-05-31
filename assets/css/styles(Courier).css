@@ -3041,10 +3041,6 @@ a.quote-button-courier:hover {
 
 /* --- RESPONSIVE STYLES --- */
 
-
-
-
-
 .p-courier{
   text-align: left;
   margin-bottom: 20px;
@@ -3171,6 +3167,11 @@ table.table thead.table-courier th {
 
 /* ------ Celulares (< 768px) ------ */
 @media screen and (max-width: 767px) {
+    :root {
+  --default-font: "Inter",  sans-serif;;
+  --heading-font: "Inter",  sans-serif;
+  --nav-font: "Inter",  sans-serif;
+ }
   body,
   html {
     text-align: center !important;
@@ -3202,6 +3203,10 @@ table.table thead.table-courier th {
     text-align: center !important;
     margin-left: auto !important;
     margin-right: auto !important;
+  }
+
+  .p-envios{
+    margin-bottom: 10px;
   }
 
   /* Botones tipo <a> centrados */
@@ -3264,6 +3269,11 @@ table.table thead.table-courier th {
 }
 
 @media screen and (max-width: 767px) {
+  :root {
+  --default-font: "Inter",  sans-serif;;
+  --heading-font: "Inter",  sans-serif;
+  --nav-font: "Inter",  sans-serif;
+ }
   /* TÍTULO PRINCIPAL CENTRADO */
   h1, h2, .main-title, .section-title h2 {
     text-align: center !important;
@@ -3273,15 +3283,71 @@ table.table thead.table-courier th {
   }
 
   /* TABLA RESPONSIVE */
-.table-responsive {
+  /* Hace responsiva y centrada la tabla */
+  .position-table {
+    display: block;
     width: 100%;
     overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-left: -10px !important;
   }
 
-  .table-responsive table {
-    min-width: 600px; /* Evita que se achique demasiado */
-    width: 100%;
-    border-collapse: collapse;
+  .table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 15px !important;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    width: 105%;
+    align-items: center;  
+    margin-left: -70px !important;
+    margin-right: -70px !important;
+  }
+  .table-responsive2 {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 15px !important;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    width: 125%;
+    align-items: center;  
+    margin-left: -70px !important;
+    margin-right: 100px !important;
+  }
+
+  .subtitle-courier{
+    margin-top: 10px !important;
+    text-align: center !important;
+    padding: 0 15px;
+    /* margin-right: 120px !important; */
+  }
+
+  /* Mejora la separación entre la primera y segunda tabla */
+  .subtitle-courier2 {
+    margin-top: 140px !important;
+    text-align: center !important;
+    padding: 0 15px;
+  }
+
+  /* Opcional: achica fuente en pantallas pequeñas si es necesario */
+  .position-table td,
+  .position-table th {
+    font-size: 14px !important;
+    white-space: nowrap;
+  }
+
+  /* Evita que las tablas se salgan de los bordes */
+  .table-courier-postion2,
+  .position-table {
+    width: 100% !important;
+  }
+
+  /* Corrige márgenes y padding para estructura vertical */
+  .table-courier-postion2 {
+    margin: 0 auto;
+    padding: 0 10px;
   }
 
   /* 🦶 Centrado total del footer */
@@ -3300,12 +3366,13 @@ table.table thead.table-courier th {
     margin-bottom: 20px;
   }
 
-  footer .social-icons {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-    gap: 15px;
+ .social-links {
+    justify-content: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
+
+  
 
   footer .footer-bottom {
     font-size: 14px;
