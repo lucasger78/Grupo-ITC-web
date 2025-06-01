@@ -2163,3 +2163,54 @@ font-family: "Inter", sans-serif;
 color:#252525 !important;
 }
 
+@media screen and (max-width: 767px) {
+  .footer-social .social-icons,
+  .footer-social-icons,
+  .social-links.d-flex {
+    justify-content: center !important;
+  }
+
+  .logo-brand {
+    width: 60% !important;
+    margin: 0 auto !important;
+    display: block !important;
+  }
+
+  .brand-subtitle {
+    font-size: 15px !important;
+    padding-top: 5px !important;
+    text-align: center !important;
+  }
+
+   /* 🦶 Centrado total del footer */
+  footer .container,
+  footer .row,
+  footer .footer-content,
+  footer .footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  footer .footer-col {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+ .social-links {
+    justify-content: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }  
+
+  footer .footer-bottom {
+    font-size: 14px;
+    padding: 10px 0;
+  }
+
+  footer .footer-bottom p {
+    margin: 0 auto;
+  }
+
+}
