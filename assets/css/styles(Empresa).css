@@ -1309,23 +1309,23 @@ section,
 
 @media screen and (max-width: 767px) {
   .carousel-container {
-    height: 100% !important;
-    max-height: 180px !important;
-    padding: 0 !important;
-    margin-top: 20px !important;
-    margin-bottom: 20px !important;
-  }
-
-  .carousel-track img {
-    height: 100% !important;
-    max-height: 130px !important;
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
-    object-fit: cover;
-    display: block;
+    width: 100% !important;
+    margin: 0 auto;
   }
 
   .carousel-track {
-    align-items: center !important;
+    padding-left: 10px;
+  }
+
+  .carousel-track img {
+    height: 200px !important;
+    margin-top: 20px !important;
+    margin-right: 10px;
+    border-radius: 10px;
+  }
+
+  .carousel-container::before,
+  .carousel-container::after {
+    width: 15px;
   }
 }
