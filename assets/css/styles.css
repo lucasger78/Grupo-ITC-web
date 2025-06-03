@@ -2394,12 +2394,13 @@ color:#252525 !important;
 
 
 .hero-title2 {
+  align-self: center !important;
   font-family: "Inter", sans-serif;
   font-size: 48px;
   font-weight: 900;
   line-height: 1.2;
   color: #1b1b1b;
-  width: 150%;
+  width: 150% !important;
   margin-bottom: 20px;
   margin-left: 200px;
 }
@@ -2801,19 +2802,19 @@ a.quote-button-cobertura-aduana:hover {
     margin: 0 auto !important;
     display: block !important;
   } */
-  .logo-brand {
+  /* .logo-brand {
     margin-bottom: 5px;
     width: 100px !important;
     max-width: 70%;
     height: auto;
-  }
+  } */
 
 
-  .brand-subtitle {
+  /* .brand-subtitle {
     font-size: 15px !important;
     padding-top: 5px !important;
     text-align: center !important;
-  }
+  } */
 
    /* 🦶 Centrado total del footer */
   footer .container,
