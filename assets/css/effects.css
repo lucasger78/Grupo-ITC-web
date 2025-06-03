@@ -59,11 +59,11 @@
     text-align: center;
   }
 
-  .logo-brand {
-    margin-bottom: 5px; /* espacio entre logo y subtítulo */
+  /* .logo-brand {
+    margin-bottom: 5px; 
     max-width: 100%;
     height: auto;
-  }
+  } */
 
   .brand-subtitle {
     font-size: 14px;

@@ -2796,11 +2796,18 @@ a.quote-button-cobertura-aduana:hover {
     justify-content: center !important;
   }
 
-  .logo-brand {
+  /* .logo-brand {
     width: 60% !important;
     margin: 0 auto !important;
     display: block !important;
+  } */
+  .logo-brand {
+    margin-bottom: 5px;
+    width: 100px !important;
+    max-width: 70%;
+    height: auto;
   }
+
 
   .brand-subtitle {
     font-size: 15px !important;

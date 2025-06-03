@@ -779,7 +779,7 @@ section,
 
 @media (max-width: 768px) {
     .logo-brand {
-      width: 80%; 
+      width: 40%; 
       height: auto;
     }
   }
@@ -1739,6 +1739,8 @@ a.quote-button-export:hover {
     width: 100%;
     height: auto;
   }
+  
+    
 
   .export-title,
   .impo-expo-temp-text,
@@ -1770,6 +1772,12 @@ a.quote-button-export:hover {
     text-align: center;
     justify-content: center;
     margin: 0 auto;
+  }
+  
+ .logo-brand {
+    margin-bottom: 5px; /* espacio entre logo y subtítulo */
+    max-width: 40% !important;
+    height: auto;
   }
 }
 
@@ -1862,5 +1870,97 @@ a.quote-button-export:hover {
     margin-left: 0 !important;
   }
 }
+
+/* Añade esto al final de tu archivo CSS (styles(Services).css) */
+
+/* Correcciones específicas para móvil */
+@media (max-width: 767px) {
+  /* 1. Ajuste del logo */
+  .logo-brand {
+    max-width: 40% !important;
+    height: auto;
+    margin: 0 auto 10px auto; /* Centrado y espacio inferior */
+    display: block; /* Para que el margin auto funcione */
+  }
+
+  /* 2. Ajuste de la imagen de cabecera */
+  .hero-image.images-service-1 img {
+    margin: 50px auto 0 auto !important; /* 50px top y centrado */
+    width: 100%;
+    max-width: 100%;
+    display: block;
+  }
+
+  /* 3. Centrado de textos con listas alineadas a izquierda */
+  .hero-title-service-section,
+  .h4-subtitle-1,
+  .importacion-title,
+  .export-title,
+  .modulo-title,
+  .cierre-modulo {
+    text-align: center !important;
+    margin-left: 0 !important;
+    width: 100% !important;
+  }
+
+  /* Listas mantienen alineación izquierda pero contenedor centrado */
+  .list-importacion,
+  .list-export,
+  .list-export-import-temp {
+    display: inline-block;
+    text-align: left;
+    width: auto;
+    max-width: 90%;
+    margin: 0 auto !important;
+    padding-left: 20px;
+  }
+
+  /* 4. Ajuste del footer */
+  .footer {
+    text-align: center;
+  }
+  
+  .footer .col-lg-3 {
+    margin-bottom: 20px;
+  }
+
+  /* 5. Centrado de "Síguenos" */
+  .social-links {
+    justify-content: center !important;
+  }
+
+  /* Ajuste adicional para el subtítulo del logo */
+  .brand-subtitle {
+    text-align: center;
+    padding-left: 0;
+    white-space: normal;
+    font-size: 14px;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+  }
+
+  /* Ajuste para el contenedor de la cabecera */
+  .hero-container.import {
+    padding: 0 15px;
+  }
+
+  /* Ajuste para el texto de la cabecera */
+  .hero-content.text-package {
+    padding-right: 0;
+    margin-top: 20px;
+  }
+}
+
+/* Ajustes adicionales para tablets */
+/* @media (min-width: 768px) and (max-width: 991px) {
+  .logo-brand {
+    max-width: 30% !important;
+  }
+  
+  .hero-image.images-service-1 img {
+    margin-top: 50px !important;
+  }
+} */
 
 
