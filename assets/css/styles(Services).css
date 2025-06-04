@@ -1910,6 +1910,16 @@ a.quote-button-export:hover {
   padding: 0 !important;
 }
 
+  #img-export img {
+  display: block !important;
+  margin: 0 auto !important;
+  /* margin-left: 50px !important; */
+  width: 100% !important;
+  max-width: 120% !important;
+  height: auto !important;
+  padding: 0 !important;
+}
+
   /* 3. Centrado de textos con listas alineadas a izquierda */
   .hero-title-service-section,
   .h4-subtitle-1,
@@ -1925,6 +1935,12 @@ a.quote-button-export:hover {
   #export-mobile{
     text-align: center !important;
     margin-left: -30px !important;
+    width: 100% !important;
+  }
+
+  .courier-text-wrapper{
+    text-align: center !important;
+    margin-left: 0 !important;
     width: 100% !important;
   }
 

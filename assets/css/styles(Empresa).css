@@ -937,6 +937,10 @@ section,
     margin-left: 0 !important;
   }
 
+  .hero-image.images-team-1 img {
+    margin-top: 80px !important;
+  }
+
   .h2-empresa2 {
     font-size: 28px !important;
     margin-left: 0 !important;
