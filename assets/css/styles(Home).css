@@ -1642,6 +1642,9 @@ a.quote-button-cobertura-aduana:hover {
 
 /* ========== RESPONSIVO NOTEBOOK ========== */
 @media screen and (min-width: 1025px) and (max-width: 1366px) {
+  body{
+    margin-left: 50px !important;
+  }
   /* Ajustes generales */
   .hero-title,
   .hero-title2,

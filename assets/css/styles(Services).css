@@ -1918,7 +1918,13 @@ a.quote-button-export:hover {
   .modulo-title,
   .cierre-modulo {
     text-align: center !important;
-    margin-left: 0 !important;
+    margin-left: 10px !important;
+    width: 100% !important;
+  }
+
+  #export-mobile{
+    text-align: center !important;
+    margin-left: 10px !important;
     width: 100% !important;
   }
 
