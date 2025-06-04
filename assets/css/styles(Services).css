@@ -1932,6 +1932,12 @@ a.quote-button-export:hover {
     width: 100% !important;
   }
 
+  #text-inicio-services{
+    text-align: center !important;
+    margin-left: 80px !important;
+    width: 100% !important;
+  }
+
   #export-mobile{
     text-align: center !important;
     margin-left: -30px !important;
