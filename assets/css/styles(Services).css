@@ -1886,10 +1886,29 @@ a.quote-button-export:hover {
   /* 2. Ajuste de la imagen de cabecera */
   .hero-image.images-service-1 img {
     margin: 50px auto 0 auto !important; /* 50px top y centrado */
-    width: 100%;
+    margin-right: 35px !important; /* Espacio derecho */
+    width: 90%;
     max-width: 100%;
     display: block;
   }
+  .hero-image.images-service-2 img {
+    margin: 20px auto 0 auto !important; /* 50px top y centrado */
+    margin-bottom: -20px;
+    margin-right: 35px !important; /* Espacio derecho */
+    margin-left: 50px !important; /* Espacio izquierdo */
+    width: 130% !important;
+    max-width: 150%;
+    display: block;
+  }
+  .hero-image.export-img img {
+  display: block !important;
+  margin: 0 auto !important;
+  margin-left: 50px !important;
+  width: 100% !important;
+  max-width: 120% !important;
+  height: auto !important;
+  padding: 0 !important;
+}
 
   /* 3. Centrado de textos con listas alineadas a izquierda */
   .hero-title-service-section,
@@ -1908,12 +1927,24 @@ a.quote-button-export:hover {
   .list-export,
   .list-export-import-temp {
     display: inline-block;
-    text-align: left;
+    text-align: left !important;
     width: auto;
     max-width: 90%;
     margin: 0 auto !important;
     padding-left: 20px;
   }
+
+  .import-list li {
+    display: inline-block;
+    text-align: left !important;
+    width: 120%;
+    max-width: 150%;
+    margin: 0 auto !important;
+    padding-right: 30px;
+    padding-left: 20px !important;
+  }
+  
+
 
   /* 4. Ajuste del footer */
   .footer {
@@ -1952,15 +1983,61 @@ a.quote-button-export:hover {
   }
 }
 
-/* Ajustes adicionales para tablets */
-/* @media (min-width: 768px) and (max-width: 991px) {
-  .logo-brand {
-    max-width: 30% !important;
+@media screen and (max-width: 767px) {
+  /* Asegura alineación vertical pareja */
+  .footer-mobile {
+    align-items: flex-start !important;
+    padding-left: 0 !important;
   }
-  
-  .hero-image.images-service-1 img {
-    margin-top: 50px !important;
+
+  footer .col-lg-3,
+  footer .col-md-6 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: left;
+    margin-bottom: 25px;
+    width: 100%;
+    padding-left: 0 !important;
   }
-} */
+
+  footer .col-lg-3.d-flex,
+  footer .col-md-6.d-flex {
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  footer .col-lg-3.d-flex i,
+  footer .col-md-6.d-flex i {
+    font-size: 22px;
+    margin-top: 6px;
+    flex-shrink: 0;
+    margin-left: 0 !important;
+  }
+
+  footer .col-lg-3 h4,
+  footer .col-md-6 h4 {
+    font-size: 16px;
+    margin: 0 0 6px 0;
+  }
+
+  footer .col-lg-3 p,
+  footer .col-md-6 p {
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .social-links {
+    justify-content: flex-start !important;
+    margin-top: 10px;
+    gap: 14px;
+  }
+
+  footer .col-lg-3:last-child {
+    flex-direction: column;
+    text-align: left;
+  }
+}
 
 

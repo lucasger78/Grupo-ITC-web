@@ -1329,3 +1329,14 @@ section,
     width: 15px;
   }
 }
+
+/* Ajustes adicionales para tablets */
+/* @media (min-width: 768px) and (max-width: 991px) {
+  .logo-brand {
+    max-width: 30% !important;
+  }
+  
+  .hero-image.images-service-1 img {
+    margin-top: 50px !important;
+  }
+} */
