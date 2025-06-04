@@ -169,3 +169,35 @@ document.querySelectorAll('.faq-question').forEach(button => {
   });
 });
 
+
+function aplicarEstilos() {
+    let styles = [
+        "assets/css/styles(Empresa).css",
+        "assets/css/styles(Courier).css",
+        "assets/css/styles(Home).css"
+    ];
+
+    // Verificar el ancho de la ventana
+    if (window.innerWidth <= 768) {
+        styles.forEach((style) => {
+            if (!document.querySelector(`link[href="${style}"]`)) {
+                let link = document.createElement("link");
+                link.rel = "stylesheet";
+                link.href = style;
+                link.className = "mobile-style"; // Para identificación posterior
+                document.head.appendChild(link);
+            }
+        });
+    } else {
+        // Eliminar estilos en escritorio
+        document.querySelectorAll(".mobile-style").forEach((link) => {
+            link.remove();
+        });
+    }
+}
+
+// Ejecutar cuando la página cargue completamente
+window.addEventListener("load", aplicarEstilos);
+window.addEventListener("resize", aplicarEstilos); // También ejecutarlo si el usuario cambia el tamaño de la ventana
+
+
