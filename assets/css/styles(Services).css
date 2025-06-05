@@ -1509,16 +1509,25 @@ a.quote-button-export:hover {
   margin: 0 auto;
 }
 
+  /* #img-export img {
+  display: block !important;
+  margin: 0 auto !important;  
+  width: 100% !important;
+  max-width: 120% !important;
+  height: auto !important;
+  padding: 0 !important;
+} */
+
 .courier-img{
-  margin-left: 60px;
+  margin-left: 90px;
 }
 
 .impo-expo-temp-img {
-  margin-left: -10px;
+  margin-left: 10px;
 }
 
 .impo-expo-temp-text {
-  margin-left: -30px;
+  margin-left: -10px;
   
   font-size: 36px !important;
   width: 100%;
@@ -1540,7 +1549,7 @@ a.quote-button-export:hover {
     font-size: 18px;
     font-weight: 800;
     color: #4b4b4b;
-    margin-left: -30px;
+    margin-left: -10px;
     width: 100%;
 }
 
@@ -1553,6 +1562,7 @@ a.quote-button-export:hover {
   font-size: 36px;
   font-weight: 700;
   color: #003b5c; 
+  margin-left: 30px;
   margin-bottom: 15px;
 }
 
@@ -1562,6 +1572,15 @@ a.quote-button-export:hover {
   color: #4b4b4b;
   line-height: 1.6;
   margin: 0;
+}
+
+#courier-description2 {
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  color: #4b4b4b;
+  line-height: 1.6;
+  width: 95% !important;
+  margin-left: 30px !important;
 }
 
 .courier-text-wrapper{
