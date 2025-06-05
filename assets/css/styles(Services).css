@@ -2139,6 +2139,81 @@ a.quote-button-export:hover {
 }
 
 
-
-
+/* 
+ * Estilos EXCLUSIVOS para notebooks (14-17")
+ * Rango: 1366px a 1920px 
+ */
+@media (min-width: 1366px) and (max-width: 1920px) {
+  /* Ajuste general de contenedor principal */
+  .container {
+    max-width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Hero principal - mantenemos diseño pero con márgenes */
+  .hero-modern .hero-container.import {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  /* Ajuste específico para la primera imagen */
+  .hero-image.images-service-1 img {
+    width: 150%;
+    /* max-width: 600px; */
+    margin-left: 350px !important;
+  }
+  
+  /* Ajuste para sección de importaciones */
+  .row.gy-4.align-items-start {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  /* Ajuste para imágenes en sección de servicios */
+  .hero-image.images-service-2 img {
+    width: 100%;
+    max-width: 550px;
+    margin-left: 40px !important;
+  }
+  
+  /* Ajuste para sección de exportaciones */
+  .export-img img {
+    width: 100%;
+    max-width: 500px;
+    margin-left: 20px !important;
+  }
+  
+  /* Ajuste para títulos principales */
+  /* .hero-title-service-section, */
+  .importacion-title,
+  .export-title {
+    font-size: 2.2rem !important;
+    line-height: 1.3;
+  }
+  
+  /* Ajuste para módulos de servicios */
+  .services .row.gy-4 {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  .service-item {
+    padding: 15px;
+  }
+  
+  /* Footer - márgenes consistentes */
+  .footer .container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  /* Ajuste fino para textos */
+  .h4-subtitle-1,
+  .courier-description,
+  .p-modulos {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+}
 
