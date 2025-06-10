@@ -1404,10 +1404,11 @@ color:#252525 !important;
 }
 
 .list-importacion li {
-    margin-top: 20px;
+    margin-top: 10px !important;
     display: flex;
     align-items: flex-start;    
     gap: 8px;
+    line-height: 1 !important;
     font-size: 18px;
     font-weight: 800;
     color: #4b4b4b;
