@@ -9,7 +9,7 @@
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon"
+  <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
@@ -39,6 +39,7 @@
   <link href="assets/css/styles(Services).css" rel="stylesheet">
   <link href="assets/css/styles(Empresa).css" rel="stylesheet">
   <link href="assets/css/styles(Courier).css" rel="stylesheet">
+  <link href="assets/css/flags.css" rel="stylesheet">
 
   <!-- ========== WHATSAPP BUTTON ========== -->
 
@@ -52,7 +53,7 @@
     </a>
     <div class="slider">
       <div class="tab">
-        <a href="https://walink.co/c8b1b2" style="color: white;"><b data-section="btn-sup" data-value="whatsapp">Escribinos</b></a>
+        <a href="https://walink.co/c8b1b2" style="color: white;"><b data-section="btn-whatsapp" data-value="whatsapp">Escribinos</b></a>
     </div>
     </div>
   </div> 
@@ -69,24 +70,35 @@
     
         <img src="assets/img/logo-ITC.png" alt="" class="logo-brand">
 
-        <span class="brand-subtitle" data-section="brand-text " data-value="brand-subtitle">Despachante de Aduana y Comercio Exterior</span>
+        <span class="brand-subtitle" data-section="brand-text " data-value="brand-title">Despachante de Aduana y Comercio Exterior</span>
 
       </a>
      
 
       <nav id="navmenu" class="navmenu">
         <ul>
+          <div id="flags" class="flags flags_img">
+              <div class="flags_items flags-ar" data-language="es">
+                <img src="assets/img/icons/ar.svg" alt="es"/>
+              </div>
+              <div class="flags_items flags-usa" data-language="en">
+                <img src="assets/img/icons/usa.svg" alt="en"/>
+              </div>
+              <div class="flags_items flags-br" data-language="por">
+                <img src="assets/img/icons/br.svg" alt="por"/>
+              </div>
+          </div>
           <li><a href="index.html"  data-section="nav-bar" data-value="index">Inicio</a></li>          
           <li><a href="services.html" data-section="nav-bar" data-value="services">Servicios</a></li>
           <li><a href="empresa.html" data-section="nav-bar" data-value="empresa">Empresa</a></li>
-         
+          
           <li><a href="courier.html" data-section="nav-bar" data-value="courier" class="active">Courier</a></li>
           <!-- <li><a href="agents.html">Agents</a></li> -->
           
           <li><a href="https://walink.co/c8b1b2" target="_blank" data-section="nav-bar" data-value="contact">Contacto</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
+      </nav>   
 
     </div>
   </header>
@@ -107,21 +119,21 @@
               <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
                 <p class="p-operacionesYrubros">Operaciones y Rubros </p>
                 <div class="container section-title" data-aos="fade-up">
-                  <h2 class="importacion-title title-description-importacion"><span class="home-descript">Compra desde CHINA y USA</span> directo a tu Domicilio</h2>
+                  <h2 class="importacion-title title-description-importacion" data-section="courier" data-value="hero-title1"><span class="home-descript">Compra desde CHINA y USA</span> directo a tu Domicilio</h2>
 
-                  <p class="p-courier">¿Compraste algo en el exterior? ¡Nosotros te lo traemos!</p>
-                  <p class="p-courier">Rápido. Seguro. Sin complicaciones.</p>
+                  <p class="p-courier"data-section="courier" data-value="hero-p-1a">¿Compraste algo en el exterior? ¡Nosotros te lo traemos!</p>
+                  <p class="p-courier"data-section="courier" data-value="hero-p-1b">Rápido. Seguro. Sin complicaciones.</p>
 
                   <ul class="list-importacion">
-                    <li>🔹<span> Recibimos tus paquetes en EE. UU. o China.</span></li>
-                    <li>🔹<span> Los traemos por avión hasta Argentina en 7 o 8 días.</span></li>
-                    <li>🔹<span> Nos encargamos del despacho y entrega final.</span></li>
+                    <li>🔹<span data-section="courier" data-value="li-1a"> Recibimos tus paquetes en EE. UU. o China.</span></li>
+                    <li>🔹<span data-section="courier" data-value="li-1b"> Los traemos por avión hasta Argentina en 7 o 8 días.</span></li>
+                    <li>🔹<span data-section="courier" data-value="li-1c"> Nos encargamos del despacho y entrega final.</span></li>
                     <!-- <li><i class="bi bi-check"></i> <span>Coordinación de logística internacional terrestre, aérea o marítima</span></li>
                     <li><i class="bi bi-check"></i> <span>Gestión bancaria y seguimiento de pagos al exterior</span></li> -->
                   </ul>
-                  <p class="p-courier">📦 Comprás, lo enviás a nuestra dirección, ¡y listo!</p>
-                  <p class="p-courier">En Grupo ITC te ofrecemos un servicio de courier rápido y seguro para tus compras internacionales.</p>
-                  <a class="quote-button-courier p-courier" href="https://walink.co/349dde" target="_blank">Cotiza Ahora</a>
+                  <p class="p-courier" data-section="courier" data-value="hero-p-2a">📦 Comprás, lo enviás a nuestra dirección, ¡y listo!</p>
+                  <p class="p-courier" data-section="courier" data-value="hero-p-2b">En Grupo ITC te ofrecemos un servicio de courier rápido y seguro para tus compras internacionales.</p>
+                  <a class="quote-button-courier p-courier" href="https://walink.co/349dde" target="_blank" data-section="btn-title4" data-value="btn-contact2c">Cotiza Ahora</a>
                  </div>                                                          
               </div> 
               <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
@@ -153,18 +165,18 @@
                
               <div class="container section-title h4-section-title" data-aos="fade-up">
                 
-                  <h2 class="subtitle-description-home export-title">Equipo Especializado: <span class="home-descript">Con Experiencia Real</span></h2>
+                  <h2 class="subtitle-description-home export-title" data-section="courier" data-value="hero-title2">Equipo Especializado: <span class="home-descript">Con Experiencia Real</span></h2>
                   <div class="p-courier2">
-                     <p class="p-courier2">Años de trabajo con empresas, ahora también para vos. Durante años ayudamos a empresas a importar miles de productos y gestionar envíos internacionales de forma eficiente y segura.</p>
+                     <p class="p-courier2" data-section="courier" data-value="hero-p-courier1a">Años de trabajo con empresas, ahora también para vos. Durante años ayudamos a empresas a importar miles de productos y gestionar envíos internacionales de forma eficiente y segura.</p>
 
-                  <p class="p-courier2">Hoy ponemos todo ese conocimiento y estructura a disposición de personas que quieren traer sus compras del exterior, con la misma seriedad, respaldo y simplicidad.</p>
+                  <p class="p-courier2" data-section="courier" data-value="hero-p-courier1b">Hoy ponemos todo ese conocimiento y estructura a disposición de personas que quieren traer sus compras del exterior, con la misma seriedad, respaldo y simplicidad.</p>
                      
                   <ul class="list-courier2">
-                    <li> 🔹<span> <b>Procesos optimizados</b></span></li>
-                    <li> 🔹<span> <b>Asesoramiento personalizado</b></span></li>
-                    <li> 🔹<span> <b>Confianza, experiencia y respaldo</b></span></li>
+                    <li> 🔹<span  data-section="courier" data-value="li-2a"> <b>Procesos optimizados</b></span></li>
+                    <li> 🔹<span  data-section="courier" data-value="li-2b"> <b>Asesoramiento personalizado</b></span></li>
+                    <li> 🔹<span  data-section="courier" data-value="li-2c"> <b>Confianza, experiencia y respaldo</b></span></li>
                   </ul>
-                  <p class="p-courier2">Traer del exterior nunca fue tan fácil.</p>
+                  <p class="p-courier2"  data-section="courier" data-value="li-2d">Traer del exterior nunca fue tan fácil.</p>
                   </div>
                 <!-- <a class="quote-button-export">Cotiza Ahora</a> -->
                  
@@ -194,9 +206,9 @@
                     <img src="assets/img/courier/courier3.jpg" alt="Gestión Documental" class="service-img">
                   </div>
                   <!-- <a href="service-details.html" class="stretched-link"> -->
-                    <h3>Compras</h3>
+                    <h3  data-section="courier" data-value="hero-title3">Compras</h3>
                   </a>
-                  <p class="p-modulos">Arma tu carrito de compras desde Amazon, Alibaba, Temu o la tienda de preferencia. Y la envías a nuestro Deposito en EEUU o China.</p>
+                  <p class="p-modulos" data-section="courier" data-value="hero-subtitle3">Arma tu carrito de compras desde Amazon, Alibaba, Temu o la tienda de preferencia. Y la envías a nuestro Deposito en EEUU o China.</p>
                 </div>
               </div><!-- End Service Item -->
 
@@ -206,9 +218,9 @@
                     <img src="assets/img/courier/courier4.jpg" alt="Gestión Documental" class="service-img">
                   </div>
                   <!-- <a href="service-details.html" class="stretched-link"> -->
-                    <h3>Armamos tu Envío</h3>
+                    <h3 data-section="courier" data-value="hero-title4">Armamos tu Envío</h3>
                   </a>
-                  <p class="p-modulos">Selecciona todas las compras que quieras para que llegue en una sola caja. Seguimiento exclusivo de tu mercadería con equipo especializado.</p>
+                  <p class="p-modulos" data-section="courier" data-value="hero-title4">Selecciona todas las compras que quieras para que llegue en una sola caja. Seguimiento exclusivo de tu mercadería con equipo especializado.</p>
                 </div>
               </div><!-- End Service Item -->
 
@@ -218,9 +230,9 @@
                     <img src="assets/img/courier/courier5.jpg" alt="Gestión Documental" class="service-img">
                   </div>
                   <!-- <a href="service-details.html" class="stretched-link"> -->
-                    <h3>Facturación y Planes Empresas</h3>
+                    <h3 data-section="courier" data-value="hero-title5">Facturación y Planes Empresas</h3>
                   </a>
-                  <p class="p-modulos">Recibí en cualquier parte del país con la modalidad de tu conveniencia. Contamos con Beneficios para Empresas según la cantidad de envíos.</p>
+                  <p class="p-modulos" data-section="courier" data-value="hero-subtitle5">Recibí en cualquier parte del país con la modalidad de tu conveniencia. Contamos con Beneficios para Empresas según la cantidad de envíos.</p>
                 </div>
               </div><!-- End Service Item -->
 
@@ -237,12 +249,12 @@
                 <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
                   <p class="p-operacionesYrubros">Operaciones y Rubros</p>
                   <div class="container section-title" data-aos="fade-up">
-                    <h2 class="importacion-title title-description-importacion">
+                    <h2 class="importacion-title title-description-importacion" data-section="courier" data-value="hero-title6-1">
                       <span class="home-descript">Envíos Internacionales </span>por Courier 
                     </h2>
 
-                    <p class="p-courier">Todo lo que tenés que saber</p>
-                    <p class="p-courier p-envios">✅ ¿Querés importar o exportar rápido, sin complicaciones ni sorpresas?Te contamos los límites, beneficios y diferencias entre el Régimen Courier y los Pequeños Envíos, para que aproveches al máximo tus franquicias y operes con seguridad.</p>
+                    <p class="p-courier" data-section="courier" data-value="hero-subtitle6">Todo lo que tenés que saber</p>
+                    <p class="p-courier p-envios" data-section="courier" data-value="hero-p3">✅ ¿Querés importar o exportar rápido, sin complicaciones ni sorpresas?Te contamos los límites, beneficios y diferencias entre el Régimen Courier y los Pequeños Envíos, para que aproveches al máximo tus franquicias y operes con seguridad.</p>
 
                     <!-- <a class="quote-button-courier p-courier" href="https://walink.co/c8b1b2" target="_blank">Cotiza Ahora</a> -->
                   </div>
@@ -252,42 +264,42 @@
 
                 <div class="col-lg-6 table-courier-postion" data-aos="fade-up" data-aos-delay="200">
                   <div class="table-responsive">
-                    <h2 class="subtitle-courier">
+                    <h2 class="subtitle-courier" data-section="courier" data-value="hero-title-table1">
                       <span class="home-descript">📏 Límites por Envío</span> 
                     </h2>
                     <table class="table table-hover table-striped table-bordered align-middle position-table">
                       <thead class="table-courier">
                         <tr>
                           <!-- <th scope="col">#</th> -->
-                          <th scope="col">Concepto</th>
-                          <th scope="col">Courier Comercial</th>
-                          <th scope="col">Pequeños Envíos</th>
+                          <th scope="col" data-section="courier" data-value="hero-subtitle-table1a">Concepto</th>
+                          <th scope="col" data-section="courier" data-value="hero-subtitle-table1b">Courier Comercial</th>
+                          <th scope="col" data-section="courier" data-value="hero-subtitle-table1c">Pequeños Envíos</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
                           <!-- <th scope="row">1</th> -->
-                          <td>Peso máximo por paquete</td>
-                          <td>50 kg</td>
-                          <td>50 kg</td>
+                          <td data-section="courier" data-value="hero-subtitle-table1d">Peso máximo por paquete</td>
+                          <td data-section="courier" data-value="hero-subtitle-table1e">50 kg</td>
+                          <td data-section="courier" data-value="hero-subtitle-table1f">50 kg</td>
                         </tr>
                         <tr>
                           <!-- <th scope="row">2</th> -->
-                          <td>Valor FOB máximo por envío</td>
-                          <td>USD 3.000</td>
-                          <td>USD 3.000</td>
+                          <td data-section="courier" data-value="hero-subtitle-table1g">Valor FOB máximo por envío</td>
+                          <td data-section="courier" data-value="hero-subtitle-table1h">USD 3.000</td>
+                          <td data-section="courier" data-value="hero-subtitle-table1i">USD 3.000</td>
                         </tr>
                         <tr>
                           <!-- <th scope="row">3</th> -->
-                          <td>Cantidad de envíos por año</td>
-                          <td>Sin límite</td>
-                          <td>Hasta 5 por persona</td>
+                          <td data-section="courier" data-value="hero-subtitle-table1j">Cantidad de envíos por año</td>
+                          <td data-section="courier" data-value="hero-subtitle-table1k">Sin límite</td>
+                          <td data-section="courier" data-value="hero-subtitle-table1l">Hasta 5 por persona</td>
                         </tr>
                         <tr>
                           <!-- <th scope="row">3</th> -->
-                          <td>Unidades por envío</td>
-                          <td>Sin límite</td>
-                          <td>Hasta 3 unidades iguales</td>
+                          <td data-section="courier" data-value="hero-subtitle-table1m">Unidades por envío</td>
+                          <td data-section="courier" data-value="hero-subtitle-table1n">Sin límite</td>
+                          <td data-section="courier" data-value="hero-subtitle-table1o">Hasta 3 unidades iguales</td>
                         </tr>
                       </tbody>
                     </table>
@@ -295,7 +307,7 @@
                 </div>
               </div>
               <h2 class="subtitle-courier2">
-              <span class="accent-text">📊 Diferencias entre Régimen de Pequeños Envíos</span>
+              <span class="accent-text" data-section="courier" data-value="hero-title6">📊 Diferencias entre Régimen de Pequeños Envíos</span>
                y Courier Comercial
               </h2>
               <div class="col-lg-6 table-courier-postion2" data-aos="fade-up" data-aos-delay="200">
@@ -304,59 +316,59 @@
                     <thead>
                       <tr>
                         <!-- <th scope="col">#</th> -->
-                        <th scope="col">Característica</th>
-                        <th scope="col">🟢 Pequeños Envíos</th>
-                        <th scope="col">🔵 Courier Comercial</th>
+                        <th scope="col" data-section="courier" data-value="hero-title-table2a">Característica</th>
+                        <th scope="col" data-section="courier" data-value="hero-title-table2b">🟢 Pequeños Envíos</th>
+                        <th scope="col" data-section="courier" data-value="hero-title-table2c">🔵 Courier Comercial</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
                         <!-- <th scope="row">1</th> -->
-                        <td>Destino</td>
-                        <td>Uso personal / sin fines comerciales</td>
-                        <td>Uso comercial o particular</td>
+                        <td data-section="courier" data-value="hero-subtitle-table2a">Destino</td>
+                        <td data-section="courier" data-value="hero-subtitle-table2b">Uso personal / sin fines comerciales</td>
+                        <td data-section="courier" data-value="hero-subtitle-table2c">Uso comercial o particular</td>
                       </tr>
                       <tr>
                         <!-- <th scope="row">2</th> -->
-                        <td>Valor máximo por envío (FOB)</td>
-                        <td>USD 3.000 (franquicia hasta USD 400)</td>
-                        <td>USD 3.000</td>
+                        <td data-section="courier" data-value="hero-subtitle-table2d">Valor máximo por envío (FOB)</td>
+                        <td data-section="courier" data-value="hero-subtitle-table2e">USD 3.000 (franquicia hasta USD 400)</td>
+                        <td data-section="courier" data-value="hero-subtitle-table2f">USD 3.000</td>
                       </tr>
                       <tr>
                         <!-- <th scope="row">3</th> -->
-                        <td>Franquicia arancelaria</td>
-                        <td>Sí, hasta USD 400 (sin derechos ni tasa)</td>
-                        <td>No</td>
+                        <td data-section="courier" data-value="hero-subtitle-table2g">Franquicia arancelaria</td>
+                        <td data-section="courier" data-value="hero-subtitle-table2h">Sí, hasta USD 400 (sin derechos ni tasa)</td>
+                        <td data-section="courier" data-value="hero-subtitle-table2i">No</td>
                       </tr>
                       <tr>
                         <!-- <th scope="row">3</th> -->
-                        <td>Cantidad de envíos por año</td>
-                        <td>Hasta 5 por persona</td>
-                        <td>Sin límite</td>
+                        <td data-section="courier" data-value="hero-subtitle-table2j">Cantidad de envíos por año</td>
+                        <td data-section="courier" data-value="hero-subtitle-table2k">Hasta 5 por persona</td>
+                        <td data-section="courier" data-value="hero-subtitle-table2l">Sin límite</td>
                       </tr>
                       <tr>
                         <!-- <th scope="row">1</th> -->
-                        <td>Unidades por envío</td>
-                        <td>Hasta 3 unidades de la misma especie</td>
-                        <td>Sin límite</td>
+                        <td data-section="courier" data-value="hero-subtitle-table2m">Unidades por envío</td>
+                        <td data-section="courier" data-value="hero-subtitle-table2n">Hasta 3 unidades de la misma especie</td>
+                        <td data-section="courier" data-value="hero-subtitle-table2o">Sin límite</td>
                       </tr>
                       <tr>
                         <!-- <th scope="row">2</th> -->
-                        <td>Intervención de terceros organismos</td>
-                        <td>Exceptuado (en general)</td>
-                        <td>Requiere intervención si corresponde</td>
+                        <td data-section="courier" data-value="hero-subtitle-table2p">Intervención de terceros organismos</td>
+                        <td data-section="courier" data-value="hero-subtitle-table2q">Exceptuado (en general)</td>
+                        <td data-section="courier" data-value="hero-subtitle-table2r">Requiere intervención si corresponde</td>
                       </tr>
                       <tr>
                         <!-- <th scope="row">3</th> -->
-                        <td>Pago de IVA</td>
-                        <td>Sí</td>
-                        <td>Sí</td>
+                        <td data-section="courier" data-value="hero-subtitle-table2s">Pago de IVA</td>
+                        <td data-section="courier" data-value="hero-subtitle-table2t">Sí</td>
+                        <td data-section="courier" data-value="hero-subtitle-table2u">Sí</td>
                       </tr>
                       <tr>
                         <!-- <th scope="row">3</th> -->
-                        <td>Ideal para...</td>
-                        <td>Compras personales, regalos, muestras</td>
-                        <td>E-commerce, negocios, importaciones regulares</td>
+                        <td data-section="courier" data-value="hero-subtitle-table2v">Ideal para...</td>
+                        <td data-section="courier" data-value="hero-subtitle-table2w">Compras personales, regalos, muestras</td>
+                        <td data-section="courier" data-value="hero-subtitle-table2x">E-commerce, negocios, importaciones regulares</td>
                       </tr>
                     </tbody>
                   </table>
@@ -366,42 +378,89 @@
           </section>            
              
             <!-- PREGUNTAS FRECUENTES (FAQs) -->
-          <section class="faq-section">
+          <!-- <section class="faq-section">
             <h2 class="cierre-modulo">
-              <span class="accent-text">Preguntas Frecuentes</span></h2>
+              <span class="accent-text" data-section="courier" data-value="faq-title">Preguntas Frecuentes</span></h2>
             <div class="faq-container">
               <div class="faq-item active">
                 <button class="faq-question">
+
+                <span class="faq-question-text" data-section="courier" data-value="faq-question1">
                   ¿Debo registrar mis envíos en ARCA?
-                  <span class="faq-toggle">✕</span>
+                  </span>
+                  <span class="faq-toggle">+</span>
                 </button>
-                <div class="faq-answer">
+                <div class="faq-answer" data-section="courier" data-value="faq-resp1">
                   Solo si el envío llega por Correo Argentino. Para courier privado, no hace falta.
                 </div>
               </div>
 
               <div class="faq-item">
                 <button class="faq-question">
+                  <span class="faq-question-text" data-section="courier" data-value="faq-question2"> 
                   ¿Qué pasa si paso los USD 400?
+                  </span>
                   <span class="faq-toggle">＋</span>
                 </button>
-                <div class="faq-answer">
+                <div class="faq-answer" data-section="courier" data-value="faq-resp2">
                   Pagás aranceles normalmente, pero podés seguir operando por courier si no superás los USD 3.000 FOB.
                 </div>
               </div>
 
               <div class="faq-item">
-                <button class="faq-question">
+                <button class="faq-question"> <span  data-section="courier" data-value="faq-question3" class="faq-question-text">
                   ¿Qué son “3 unidades de la misma especie”?
+                  </span>
                   <span class="faq-toggle">＋</span>
                 </button>
-                <div class="faq-answer">
+                <div class="faq-answer" data-section="courier" data-value="faq-resp3">
                   Significa que por envío podés traer, por ejemplo, 3 remeras iguales, 3 dispositivos electrónicos iguales, etc.
                 </div>
               </div>
             </div>
-          </section>         
-  
+          </section>          -->
+      <section class="faq-section">
+        <h2 class="cierre-modulo">
+          <span class="accent-text" data-translate="courier.faq-title">Preguntas Frecuentes</span>
+        </h2>
+        
+        <div class="faq-container">
+          <!-- Pregunta 1 -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span class="question-text" data-translate="courier.faq-question1">¿Debo registrar mis envíos en ARCA?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer" data-translate="courier.faq-resp1">
+              <p>Solo si el envío llega por Correo Argentino. Para courier privado, no hace falta.</p>
+            </div>
+          </div>
+
+          <!-- Pregunta 2 -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span class="question-text" data-translate="courier.faq-question2">¿Qué pasa si paso los USD 400?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer" data-translate="courier.faq-resp2">
+              <p>Pagás aranceles normalmente, pero podés seguir operando por courier si no superás los USD 3.000 FOB.</p>
+            </div>
+          </div>
+
+          <!-- Pregunta 3 -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span class="question-text" data-translate="courier.faq-question3">¿Qué son "3 unidades de la misma especie"?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer" data-translate="courier.faq-resp3">
+              <p>Significa que por envío podés traer, por ejemplo, 3 remeras iguales, 3 dispositivos electrónicos iguales, etc.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+         
     </main>
   
     <footer id="footer" class="footer light-background">
@@ -477,6 +536,7 @@
   
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/language.js"></script>
 
     <!-- Bootstrap -->
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>

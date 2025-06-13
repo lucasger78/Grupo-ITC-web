@@ -9,7 +9,7 @@
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon"
+  <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
@@ -36,6 +36,7 @@
   <link href="assets/css/styles(Services).css" rel="stylesheet">
   <link href="assets/css/styles(Empresa).css" rel="stylesheet">
   <link href="assets/css/styles(Courier).css" rel="stylesheet">
+  <link href="assets/css/flags.css" rel="stylesheet">
 
 
 <!-- ========== WHATSAPP BUTTON ========== -->
@@ -50,7 +51,7 @@
     </a>
     <div class="slider">
       <div class="tab">
-        <a href="https://walink.co/c8b1b2" style="color: white;"><b data-section="btn-sup" data-value="whatsapp">Escribinos</b></a>
+        <a href="https://walink.co/c8b1b2" style="color: white;"><b data-section="btn-whatsapp" data-value="whatsapp">Escribinos</b></a>
     </div>
     </div>
   </div> 
@@ -69,24 +70,35 @@
     
         <img src="assets/img/logo-ITC.png" alt="" class="logo-brand">
 
-        <span class="brand-subtitle" data-section="brand-text " data-value="brand-subtitle">Despachante de Aduana y Comercio Exterior</span>
+        <span class="brand-subtitle" data-section="brand-text " data-value="brand-title">Despachante de Aduana y Comercio Exterior</span>
 
       </a>
      
 
       <nav id="navmenu" class="navmenu">
         <ul>
+          <div id="flags" class="flags flags_img">
+              <div class="flags_items flags-ar" data-language="es">
+                <img src="assets/img/icons/ar.svg" alt="es"/>
+              </div>
+              <div class="flags_items flags-usa" data-language="en">
+                <img src="assets/img/icons/usa.svg" alt="en"/>
+              </div>
+              <div class="flags_items flags-br" data-language="por">
+                <img src="assets/img/icons/br.svg" alt="por"/>
+              </div>
+          </div>
           <li><a href="index.html"  data-section="nav-bar" data-value="index">Inicio</a></li>          
           <li><a href="services.html" data-section="nav-bar" data-value="services">Servicios</a></li>
           <li><a href="empresa.html" data-section="nav-bar" data-value="empresa" class="active">Empresa</a></li>
-         
+          
           <li><a href="courier.html" data-section="nav-bar" data-value="courier">Courier</a></li>
           <!-- <li><a href="agents.html">Agents</a></li> -->
           
           <li><a href="https://walink.co/c8b1b2" target="_blank" data-section="nav-bar" data-value="contact">Contacto</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
+      </nav>   
 
     </div>
   </header>
@@ -100,14 +112,14 @@
                 <img src="assets/img/empresa/team-01.jpg" alt="equipo" class="img-hero">
               </div>
           <div class="hero-content text-team1">
-            <h2 class="hero-title-empresa-section">
+            <h2 class="hero-title-empresa-section" data-section="empresa" data-value="hero-title1">
               <span class="accent-text title-empresa1">Grupo ITC: </span>
               Nuestro Equipo, Tu Aliado.
             </h2>
-            <strong><p class="empresa-p-subtitle">Somos una empresa joven y dinámica, especializada en comercio exterior.
+            <strong><p class="empresa-p-subtitle" data-section="empresa" data-value="hero-subtitle1a">Somos una empresa joven y dinámica, especializada en comercio exterior.
               Nuestro equipo está formado por profesionales con experiencia concreta en operaciones internacionales y una mirada estratégica que se adapta a cada cliente.
             </p></strong>
-            <strong><p class="empresa-p-subtitle">Trabajamos junto a aliados clave como couriers, agentes de carga, operadores logísticos, bancos, depósitos en origen (China y EE. UU.) y en destino, para ofrecerte un servicio integral, desde la gestión bancaria hasta la liberación aduanera.
+            <strong><p class="empresa-p-subtitle" data-section="empresa" data-value="hero-subtitle1b">Trabajamos junto a aliados clave como couriers, agentes de carga, operadores logísticos, bancos, depósitos en origen (China y EE. UU.) y en destino, para ofrecerte un servicio integral, desde la gestión bancaria hasta la liberación aduanera.
             </p></strong>
             <p class="empresa-p-subtitle" style="color: #1b1b1b;"><strong>Con Grupo ITC, no solo tenés un proveedor: tenés un socio que entiende tu negocio.</strong></p>
             
@@ -129,8 +141,8 @@
               <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
                 <p class="p-operacionesYrubros">Operaciones y Rubros </p>
                 <div class="container section-title" data-aos="fade-up">
-                  <h2 class="h2-empresa2"><span class="h2-descript">Nuestra Experiencia: </span>Más de 16 años abriendo caminos en el comercio exterior.</h2>                 
-                  <p class="p-empresa2"><strong>
+                  <h2 class="h2-empresa2" data-section="empresa" data-value="hero-title2"><span class="h2-descript">Nuestra Experiencia: </span>Más de 16 años abriendo caminos en el comercio exterior.</h2>                 
+                  <p class="p-empresa2" data-section="empresa" data-value="hero-subtitle2"><strong>
                     Hemos acompañado a empresas de todos los tamaños: desde grandes cargas para la industria minera, automotriz y metalmecánica, hasta pequeños importadores que dan sus primeros pasos.Nuestro equipo especializado gestiona operaciones sin importar la magnitud o el volumen, siempre con foco en una liberación ágil, segura y eficiente.Con más de 16 años de trayectoria, sabemos cómo hacer que las cosas sucedan.           
                   </strong></p>
                  </div>                                         
@@ -171,9 +183,9 @@
                
               <div class="container section-title h4-section-title" data-aos="fade-up">
                 
-                  <h2 class="title-empresa3"><span class="home-descript">Transparencia, Seguridad y Experiencia</span> son nuestros Pilares</h2>
+                  <h2 class="title-empresa3" data-section="empresa" data-value="hero-title3"><span class="home-descript">Transparencia, Seguridad y Experiencia</span> son nuestros Pilares</h2>
                   <div>
-                    <b> <p class="p-empresa3" style="font-size: 18px;">
+                    <b> <p class="p-empresa3" style="font-size: 18px;" data-section="empresa" data-value="hero-subtitle3">
                     Brindamos atención personalizada, adaptándonos a cada cliente y a sus necesidades reales. Trabajamos con total transparencia, cuidando la información de forma segura y aportando nuestra experiencia para darte soluciones concretas o ayudarte a aprovechar nuevas oportunidades de negocio.
                   </p></b>
                   </div>
@@ -184,7 +196,7 @@
                   
     
             </div>
-             <h2 class="cierre-modulo">
+             <h2 class="cierre-modulo" data-section="empresa" data-value="hero-title4">
               <span class="accent-text">Visítanos </span>
               para proyectar tu Futuro Juntos
             </h2>
@@ -268,6 +280,7 @@
   
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/language.js"></script>
   
   </body>
   

@@ -1,10 +1,4 @@
-/**
-* Template Name: EstateAgency
-* Template URL: https://bootstrapmade.com/real-estate-agency-bootstrap-template/
-* Updated: Aug 09 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 (function() {
   "use strict";
@@ -170,6 +164,7 @@ document.querySelectorAll('.faq-question').forEach(button => {
 });
 
 
+
 function aplicarEstilos() {
     let styles = [
         "assets/css/styles(Empresa).css",
@@ -199,5 +194,43 @@ function aplicarEstilos() {
 // Ejecutar cuando la página cargue completamente
 window.addEventListener("load", aplicarEstilos);
 window.addEventListener("resize", aplicarEstilos); // También ejecutarlo si el usuario cambia el tamaño de la ventana
+
+
+// // FLAGS
+
+const flags = document.querySelectorAll(".flags-ar, .flags-br, .flags-gb");
+
+const selectFlag = (flag) => {
+  // Eliminar la clase "hovered" de todos los elementos
+  flags.forEach((flag) => flag.classList.remove("hovered"));
+  // Agregar la clase "hovered" al elemento seleccionado
+  flag.classList.add("hovered");
+
+  // Almacenar la selección de la bandera en el almacenamiento local del navegador
+  localStorage.setItem("selectedFlag", flag.dataset.language);
+};
+
+const loadFlag = () => {
+  // Obtener la bandera seleccionada almacenada en el almacenamiento local del navegador
+  const selectedFlag = localStorage.getItem("selectedFlag");
+
+  if (selectedFlag) {
+    // Buscar el elemento de bandera correspondiente a la selección almacenada
+    const flagElement = document.querySelector(`[data-language="${selectedFlag}"]`);
+    if (flagElement) {
+      flagElement.classList.add("hovered");
+    }
+  }
+};
+
+flags.forEach((flag) => {
+  flag.addEventListener("click", () => {
+    selectFlag(flag);
+  });
+});
+
+// Cargar la bandera al cargar la página
+loadFlag();
+
 
 

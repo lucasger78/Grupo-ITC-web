@@ -9,7 +9,7 @@
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon"
+  <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
@@ -37,6 +37,7 @@
   <link href="assets/css/styles(Courier).css" rel="stylesheet">
   <link href="assets/css/styles(Home).css" rel="stylesheet">  -->
   <!-- <link href="assets/css/responsive(Home).css" rel="stylesheet">  -->
+  <link href="assets/css/flags.css" rel="stylesheet"> 
 
   <!-- ========== WHATSAPP BUTTON ========== -->
 
@@ -67,24 +68,35 @@
     
         <img src="assets/img/logo-ITC.png" alt="" class="logo-brand">
 
-        <span class="brand-subtitle" data-section="brand-text " data-value="brand-subtitle">Despachante de Aduana y Comercio Exterior</span>
+        <span class="brand-subtitle" data-section="brand-text " data-value="brand-title">Despachante de Aduana y Comercio Exterior</span>
 
       </a>
      
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html"  data-section="nav-bar" data-value="index">Inicio</a></li>          
+          <div id="flags" class="flags flags_img">
+              <div class="flags_items flags-ar" data-language="es">
+                <img src="assets/img/icons/ar.svg" alt="es"/>
+              </div>
+              <div class="flags_items flags-usa" data-language="en">
+                <img src="assets/img/icons/usa.svg" alt="en"/>
+              </div>
+              <div class="flags_items flags-br" data-language="por">
+                <img src="assets/img/icons/br.svg" alt="por"/>
+              </div>
+          </div>
+          <li><a href="index.html"  data-section="nav-bar" data-value="index" >Inicio</a></li>          
           <li><a href="services.html" data-section="nav-bar" data-value="services" class="active">Servicios</a></li>
           <li><a href="empresa.html" data-section="nav-bar" data-value="empresa">Empresa</a></li>
-         
+          
           <li><a href="courier.html" data-section="nav-bar" data-value="courier">Courier</a></li>
           <!-- <li><a href="agents.html">Agents</a></li> -->
           
           <li><a href="https://walink.co/c8b1b2" target="_blank" data-section="nav-bar" data-value="contact">Contacto</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
+      </nav>   
 
     </div>
   </header>
@@ -433,6 +445,7 @@
   
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/language.js"></script>
   
   </body>
   

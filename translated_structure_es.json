@@ -1,0 +1,87 @@
+{
+  "btn-whatsapp": {
+    "whatsapp": "Escribinos"
+  },
+  "brand-text": {
+    "brand-title": "Despachante de Aduana y Comercio Exterior"
+  },
+  "nav-bar": {
+    "index": "Inicio",
+    "services": "Servicios",
+    "empresa": "Empresa",
+    "courier": "Courier",
+    "contact": "Contacto"
+  },
+  "index": {
+    "hero-title-index1": "Queres Importar o Exportar.Somos lo que buscabas",
+    "hero-subtitle-index1": "Con compromiso real y mirada estratégica, te acompañamos en cada etapa del proceso. Te brindamos asesoramiento integral para que tu operación sea simple, segura y eficiente.",
+    "hero-title-index2": "Compras en el Exterior.Nosotros te las traemos.",
+    "hero-subtitle-index2": "Servicio de Courier Aéreo con despacho incluido",
+    "hero-p2-a": "📦 Comprá en EE.UU. o China.",
+    "hero-p2-b": "📍  Enviá a nuestra dirección internacional.",
+    "hero-p2-c": "🚛 Nosotros lo traemos por avión y lo entregamos en tu puerta.",
+    "btn-contact2": "Conoce Más",
+    "hero-title-index3": "Especialistas enComercio Exterior",
+    "hero-subtitle-index3": "En Grupo ITC, nuestra misión es ser el socio estratégico de nuestros clientes en el campo del comercio exterior, brindando soluciones integrales y personalizadas a través de un servicio ágil, efectivo y confiable. Nos enfocamos en ofrecer un servicio de calidad, garantizando la satisfacción de nuestros clientes y optimizando sus recursos. Contamos con un equipo de profesionales altamente capacitados y especializados en todos los rubros del comercio internacional.",
+    "hero-title-index4": "Simula tu Inversión:Importación Fácil y Rápido",
+    "hero-subtitle-index4": "Simula los costos de tu importación en unos pocos pasos. Nuestra calculadora te ayuda a estimar cuánto dinero necesitas para traer máquinas de uso o productos para comercializar, considerando:",
+    "hero-li-4-b": "Gastos de flete y logística",
+    "hero-li-4-c": "Impuestos y costos aduaneros detallados",
+    "hero-area4-a": "Área Análisis",
+    "hero-p-area4-a": "En esta sección, nos centramos en ofrecerte las mejores alternativas para tu negocio, ya sea diferentes proveedores o fletes.",
+    "hero-p-area4-b": "En este ámbito nos enfocamos en brindarte ayuda para elegir productos para agregar a tu negocio y comercializar directamente.",
+    "hero-title-index5": "Estrategias para tuPrimera Importación",
+    "hero-subtitle-index5-a": "Está diseñado para quienes recién empiezan. Analizamos cada detalle para que puedas importar de manera eficiente y rentable.",
+    "hero-subtitle-index5-b": "Ofrecemos un servicio integral para que comiences tranquilamente y sin errores ya que estos pueden perjudicar tu capital invertido.",
+    "hero-area5-a": "Acompañamiento de Completo de Principio a Fin",
+    "hero-area5a-p1": "Entendemos lo complejo que puede ser iniciar múltiples trámites, enfrentarse a temas poco familiares y adaptarse a cambios constantes en las políticas. Por eso, contamos con un equipo preparado para acompañarte en cada etapa del proceso.",
+    "hero-area5b": "Inversión con mínimo viable para un inicio SEGURO",
+    "hero-area5b-p2": "Nuestro método personalizado garantiza una importación efectiva y segura. Te ayudamos a analizar el producto que querés importar, evaluamos opciones de mercado y te brindamos un panorama claro sobre la rentabilidad potencial en Argentina",
+    "btn-registro": "Registrate Ahora",
+    "hero-title-index6": "Desbloqueando Oportunidades:Los Beneficios de tener tu mercadería en Zonas Francas",
+    "hero-p6": "Los bienes que ingresan a una Zona Franca no pagan impuestos de importación y pueden almacenarse sin límite de tiempo y a bajo costo. Esto es especialmente útil para almacenar insumos de procesos productivos o equipamiento mientras se espera la autorización para nacionalizar la importación.",
+    "hero-area-title6-a": "Conoce todos los beneficios de ser usuario de Zona Franca",
+    "hero-area-p-1": "Descubre los beneficios que estas áreas especiales ofrecen a las empresas: desde exenciones fiscales hasta almacenamiento logístico sin restricciones.",
+    "hero-area-title6-b": "Teregistramoscomo usuario dezona franca",
+    "hero-area-p-2": "En este ámbito nos enfocamos en brindarte ayuda para elegir productos para agregar a tu negocio y comercializar directamente.",
+    "hero-title-index7": "Cobertura Nacional:de Aduanas",
+    "hero-subtitle-index7": "Trabajamos en todas las aduanas y puntos fronterizos de Argentina, para que puedas operar desde cualquier región del país con el mismo nivel de eficiencia y respaldo.",
+    "hero-p7": "Principales zonas de cobertura.",
+    "hero-li7-a": "AMBA:Buenos Aires, Ezeiza, Zona Franca La Plata",
+    "hero-li7-b": "Centro:Córdoba, Santa Fe, Rosario, Villa Constitución",
+    "hero-li7-c": "Cuyo:Mendoza, San Juan, San Luis",
+    "hero-li7-d": "NOA:Salta, Tucumán, Jujuy, La Rioja, Catamarca",
+    "hero-li7-e": "NEA:Misiones, Corrientes, Chaco, Formosa",
+    "hero-li7-f": "Patagonia:Neuquén, Río Negro, Chubut, Santa Cruz, Tierra del Fuego"
+  },
+  "hero-title-index1": {
+    "btn-about": "Quiénes Somos",
+    "btn-contact": "Contactanos"
+  },
+  "index\"": {
+    "hero-area4-b": "Área Comercial"
+  },
+  "hero-title4": {
+    "btn-contact2b": "Cotiza Ahora"
+  },
+  "hero-title-index6": {
+    "btn-contact2b": "Cotiza Ahora"
+  },
+  "hero-title": {
+    "btn-contact": "Contactanos"
+  },
+  "footer": {
+    "direccion": "Direccion",
+    "calle": "Tucumán 25, Torre Este Piso 9.",
+    "ciudad": "Córdoba Capital, Argentina",
+    "contacto": "Contacto",
+    "footer-whatsapp": "Whatsapp:",
+    "footer-whatsapp-number1": "+54 9 351 762-9087",
+    "footer-whatsapp-number2": "+54 9 351 868-2754",
+    "footer-whatsapp-number3": "+54 9 351 851-5210",
+    "footer-horario": "Horarios de Atención:",
+    "footer-dias": "Lunes a Viernes:",
+    "footer-hora": "08:00hs a 17:30hs",
+    "footer-follow": "Síguenos"
+  }
+}
