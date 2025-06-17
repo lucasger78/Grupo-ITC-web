@@ -726,7 +726,7 @@ color:#252525 !important;
   }
   
   .hero-image.amazon-package img {    
-    margin-left: -60px;
+    margin-left: -100px;
     width: 125%;
     height: 105%;
     max-width: 1460px;
@@ -1885,6 +1885,102 @@ a.quote-button-cobertura-aduana:hover {
   }
 }
 
+@media (min-width: 1900px){
+  /* .hero-modern1 {
+    max-width: 100%;
+    width: 80%;
+    margin-left: 120px;
+    padding-right: -400px !important;
+    
+
+  }
+
+  .hero-image.contenedores img {
+    margin-right: -280px !important;
+    width: 130% !important;
+    height: auto !important;
+    max-width: none;
+    border-radius: 16px;
+    margin-top: -30px;
+
+  }
+
+  
+
+  .hero-image.amazon-package img {
+    margin-left: 200px;
+    width: 140%;
+    height: auto;
+    max-width: none;
+    border-radius: 16px;
+    margin-top: -30px;
+  } */
+
+
+   .hero-modern1 {    
+    max-width: 100%;
+    width: 80%;
+    margin-left: 220px;
+    margin-right: 100px !important; 
+  }
+
+  .hero-modern1 .hero-container1 {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+  }
+
+  .hero-modern1 .hero-image.contenedores img {
+    /* margin-right: -300px !important; */
+    margin-right: 0 !important;
+    width: 110% !important;
+    height: auto !important;
+    max-width: none;
+    border-radius: 16px;
+    margin-top: -30px;
+  }
+
+  /* ===== SEGUNDA SECCIÓN: Amazon box ===== */
+  .hero-modern .hero-container.amz-box {
+    width: 120%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+  }
+
+  .hero-modern .hero-image.amazon-package img {
+    margin-left: -300px !important;
+    width: auto;
+    max-width: none;
+    height: auto;
+    border-radius: 16px;
+    margin-top: -30px;
+    padding-left: -380px !important;
+    margin-right: -250px !important;
+  }
+
+  .hero-content{
+    width: 150% !important;
+    /* max-width: 800px; */
+    /* margin-left: -200px !important;
+    padding-right: 0 !important; */
+  }
+
+  .hero-image.simular-compra img {
+    margin-left: -200px !important;
+    width: auto;
+    max-width: none;
+  }
+  .hero-image.primera-impo img {
+    margin-left: -200px !important;
+    width: auto;
+    max-width: none;
+    margin-top: 40px;
+}
+
+}
 
 
 
