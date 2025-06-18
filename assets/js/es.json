@@ -100,8 +100,7 @@
     "li-2d": "Traer del exterior nunca fue tan fácil.",
     "hero-title3": "Compras",
     "hero-subtitle3": "Arma tu carrito de compras desde Amazon, Alibaba, Temu o la tienda de preferencia. Y la envías a nuestro Deposito en EEUU o China.",
-    "hero-title4": "Armamos tu Envío",
-    "hero-subtitle4": "Selecciona todas las compras que quieras para que llegue en una sola caja. Seguimiento exclusivo de tu mercadería con equipo especializado.",
+   
     "hero-title5": "Facturación y Planes Empresas",
     "hero-subtitle5": "Recibí en cualquier parte del país con la modalidad de tu conveniencia. Contamos con Beneficios para Empresas según la cantidad de envíos.",
     "hero-title6-1":"<span class='home-descript'>Envíos Internacionales </span>por Courier",
@@ -158,6 +157,11 @@
     "faq-resp2": "Pagás aranceles normalmente, pero podés seguir operando por courier si no superás los USD 3.000 FOB.",
     "faq-question3": "¿Qué son “3 unidades de la misma especie”?",
     "faq-resp3": "Significa que por envío podés traer, por ejemplo, 3 remeras iguales, 3 dispositivos electrónicos iguales, etc."
+},
+
+"courier2" : {
+   "hero-title4": "Armamos tu Envío",
+   "hero-subtitle4": "Selecciona todas las compras que quieras para que llegue en una sola caja. Seguimiento exclusivo de tu mercadería con equipo especializado."
 },
   "btn-title4": {
     "btn-contact2c": "Cotiza Ahora"

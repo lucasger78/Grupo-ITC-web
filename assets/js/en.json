@@ -100,8 +100,7 @@
     "li-2d": "Bringing from abroad has never been so easy.",
     "hero-title3": "Purchases",
     "hero-subtitle3": "Build your shopping cart from Amazon, Alibaba, Temu, or your preferred store. And send it to our Warehouse in the U.S. or China.",
-    "hero-title4": "We prepare your shipment.",
-    "hero-subtitle4": "Select all the purchases you want to arrive in a single box. Exclusive tracking of your merchandise with a specialized team.",
+    
     "hero-title5": "Invoicing and Business Plans",
     "hero-subtitle5": "Receive anywhere in the country with the modality of your choice. We offer Benefits for Businesses based on the number of shipments.",
     "hero-title6-1":"<span class='home-descript'>International Shipping </span>by Courier ",
@@ -158,6 +157,11 @@
     "faq-resp2": "You pay duties normally, but you can continue operating via courier if you don't exceed USD 3,000 FOB.",
     "faq-question3": "What are '3 units of the same kind'?",
     "faq-resp3": "It means per shipment you can bring, for example, 3 identical shirts, 3 identical electronic devices, etc."
+  },
+
+  "courier2" : {
+    "hero-title4": "We prepare your shipment.",
+    "hero-subtitle4": "Select all the purchases you want to arrive in a single box. Exclusive tracking of your merchandise with a specialized team."
   },
   "btn-title4": {
     "btn-contact2c": "Get a Quote Now"
